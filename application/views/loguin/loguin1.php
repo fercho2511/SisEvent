@@ -13,33 +13,17 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="<?php echo base_url(); ?>adminLTE/login/css/style.css">
+	<style>
+		#mensaje{
+			border:#eaeaea 1px solid;
+			color: white;
+		}
+	</style>
 
 	</head>
 	<body class="img js-fullheight" style="background-image: url(<?php echo base_url(); ?>adminLTE/login/images/bg.jpg);">
-    <div class="limiter">
-    <?php
-    switch ($msg) {
-    case '1':
-        $mensaje= "CUENTA O USUARIO NO VALIDO";
-        break;
-        case '2':
-        $mensaje= "ACCESO NO VALIDO";
-        break;
-        case '3':
-            $mensaje= "GRACIAS POR USAR EL SISTEMA";
-            break;
-    default:
-        $mensaje ="INGRESE SUS DATOS";
-        break;
-    }
-    ?>   
+
     
-</div> 
-<div backgrouncolor="white"  >
-                    <?php
-                                echo $mensaje;
-                                ?>
-                    </div>
     
 	<section class="ftco-section">
    
@@ -48,6 +32,34 @@
 				<div class="col-md-6 text-center mb-5">
                     <h1 class="heading-section">Bienvenido!</h1>
 					<h2 class="heading-section">Sistema de Eventos</h2>
+					<br>
+					<div id="mensaje" >
+								<div  backgrouncolor="blue">
+									<?php
+									switch ($msg) {
+									case '1':
+										$mensaje= "CUENTA O USUARIO NO VALIDO";
+										break;
+										case '2':
+										$mensaje= "ACCESO NO VALIDO";
+										break;
+										case '3':
+											$mensaje= "GRACIAS POR USAR EL SISTEMA";
+											break;
+									default:
+										$mensaje ="INGRESE SUS DATOS";
+										break;
+									}
+									?>   
+									
+								</div> 
+								<div   >
+									<?php
+									echo $mensaje;
+									?>
+								</div>
+
+					</div>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -61,7 +73,7 @@
 
 		      	<form action="#" class="signin-form">
 		      		<div class="form-group">
-		      			<input id="login" name="login" type="text" class="form-control" placeholder="Username" required>
+		      			<input id="login" name="login" type="text" class="form-control" placeholder="Usuario" required>
 		      		</div>
 	            <div class="form-group">
 	              <input id="password-field" name="password" type="password" class="form-control" placeholder="Password" required>

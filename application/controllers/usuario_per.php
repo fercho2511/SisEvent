@@ -20,8 +20,8 @@ class Usuario_per extends CI_Controller {
         $lista=$this->usuarioper_model->lista();
         $data['usuario']=$lista; 
 		$this->load->view('inc_inicio.php');
-        $this->load->view('inc_menu2.php');
-		$this->load->view('usuario/lista_usuario',$data);
+        // $this->load->view('inc_menu2.php');
+		$this->load->view('usuario/usuario_vista',$data);
 		$this->load->view('inc_fin.php');
 
 	}

@@ -74,6 +74,7 @@
     <!-- Page level custom scripts -->
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-area-demo.js"></script>
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-pie-demo.js"></script>
+    <script src="<?php echo base_url(); ?>starbootstrap/js/get_coordenadas.js"></script>
 
 </body>
 

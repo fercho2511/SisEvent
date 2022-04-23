@@ -488,25 +488,63 @@
                                 <?xml version="1.0" encoding="utf-8"?>
                         <!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+                        
+
                         <svg version="1.1" id="mysvg"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
                         
-                            <a xlink:href="www.google.com" xlink:title="mesa 1">
-                            <rect name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
+                            <a xlink:href="" xlink:title="mesa 1" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                            <rect  id="mesa1" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
+                            </a>  
 
-                            </a>
-                        <rect x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                        <rect x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                     <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                        <rect  id="silla1" name="silla1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    </a>
+                    
+                    <a xlink:href="" xlink:title="Silla 3" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    </a>  
+
+                     <a xlink:href="" xlink:title="Silla 5" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
                         <rect x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
-                        <rect x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
-                        <rect x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
-                        <rect x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
-                        <rect x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
-                        <rect x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
-                        <rect x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
-                        <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    </a>
+                        
+                    <a xlink:href="" xlink:title="Silla 7" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 8" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 2" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 4" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 6" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 10" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
+                    </a>
+
+                    <a xlink:href="" xlink:title="Silla 1" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
+                    </a>  
+
+
+                      <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <rect  id="mesa 2" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                    </a>    
+
+                    <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="512.192" y="65.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.7157 477.9073)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="504.224" y="77.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 175.4849 477.5719)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
                         <rect x="495.983" y="91.442" transform="matrix(0.515 -0.8572 0.8572 0.515 159.674 477.1089)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
@@ -1249,7 +1287,9 @@
                         <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="793.91" y1="291.425" x2="620.625" y2="190.924"/>
                         <text transform="matrix(0.866 0.5 -0.5 0.866 663.8574 166.7285)" font-family="'TimesNewRomanPSMT'" font-size="20">ESCENARIO</text>
                         </svg>
-
+                        <?php 
+                        $identificador = 5;
+                        ?>
 
                                 <!-- asta este punto perteence la imagen del mapa -->
                             </div>

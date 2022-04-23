@@ -58,6 +58,77 @@
         </div>
     </div>
 
+
+    <!--  desde aca se realizara la venrtana modal pra la venta o reserva  -->
+    <div class="modal fade" id="logoutModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registrar venta/reserva</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <?php
+                     echo form_open_multipart('usuario/registrar_venta');
+                  ?>
+                <div class="chart-pie pt-10 pb-4">
+                <input type="text" name="silla" value=" silla 1">
+
+                    <div>
+
+                    <div class="form-group">
+
+                                    <input type="text" class="form-control form-control-user" id="nombre"
+                                        placeholder="Nombre">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-user" id="apellido"
+                                        placeholder="Apellido">
+                                </div>
+                                    
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="ci"
+                                            placeholder="C.I.">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="number" class="form-control form-control-user" id="telefono"
+                                            placeholder="Telefono">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-user" id="correo"
+                                        placeholder="Correo">
+                                </div>
+
+                    </div>
+                                      
+                    <div class="modal-footer">
+                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+
+
+                  
+                                  <button type="submit" class="btn btn-primary" >VENTA</button>
+                                  <button type="submit" class="btn btn-primary" >RESERVA</button>
+
+
+                                  <!-- <a class="btn btn-primary" >Logout</a> -->
+                                    </a>
+                                   
+
+                    </div>
+                </div>
+                <?php
+                                        echo form_close();
+                                    ?>
+
+        </div>
+    </div>
+    <!-- end modal windows -->
+
     <!-- Bootstrap core JavaScript-->
     <script src="<?php echo base_url(); ?>starbootstrap/vendor/jquery/jquery.min.js"></script>
     <script src="<?php echo base_url(); ?>starbootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -74,7 +145,7 @@
     <!-- Page level custom scripts -->
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-area-demo.js"></script>
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-pie-demo.js"></script>
-    <script src="<?php echo base_url(); ?>starbootstrap/js/get_coordenadas.js"></script>
+    <!-- <script src="<?php echo base_url(); ?>starbootstrap/js/get_coordenadas.js"></script> -->
 
 </body>
 

@@ -150,6 +150,12 @@ class Usuario extends CI_Controller {
             redirect('usuario/index/3','refresh');
         }
 
+        //para registro de venta o reserva
+        public function registrar_venta()
+        {
+            # desarrollar el codigo para realizar la venta 
+        }
+
        
 
     

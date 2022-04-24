@@ -59,6 +59,56 @@
     </div>
 
 
+    <!-- modal para registrar zona y silla -->
+    <div class="modal fade" id="logoutModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CREAR ZONA</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="numMesa" name="zona" 
+                                            placeholder="ZONA">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="number" class="form-control form-control-user" id="zona" name="precio" 
+                                            placeholder="PRECIO">
+                                    </div>
+                                </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-secondary" type="button" data-dismiss="modal">Cancel</button>
+
+
+                    <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+
+                                  <button type="submit" class="btn btn-outline-primary" >REGISTRAR</button>
+
+                                  <!-- <a class="btn btn-primary" >Logout</a> -->
+                                    </a>
+                                    
+
+                </div>
+            </div>
+            <?php
+                                        echo form_close();
+                                    ?>
+        </div>
+    </div>
+    <!-- asta aca modal para zona -->
+
+
     <!--  desde aca se realizara la venrtana modal pra la venta o reserva  -->
     <div class="modal fade" id="logoutModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -71,48 +121,63 @@
                     </button>
                 </div>
                 <?php
-                     echo form_open_multipart('usuario/registrar_venta');
+                     echo form_open_multipart('silla/registrarSilla');
                   ?>
                 <div class="chart-pie pt-10 pb-4">
-                <input type="text" name="silla" value=" silla 1">
+                <!-- <input type="text" name="silla" value=" silla 1"> -->
 
                     <div>
 
-                    <div class="form-group">
+                    <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
-                                    <input type="text" class="form-control form-control-user" id="nombre"
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="numMesa" name="numSilla" value="1"
+                                            placeholder="mesa">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="number" class="form-control form-control-user" id="zona" name="zona" value="2"
+                                            placeholder="zona">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <input type="text" class="form-control form-control-user" id="nombre" name="nombre"
+
                                         placeholder="Nombre">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" id="apellido"
+                                    <input type="text" class="form-control form-control-user" id="apellido" name="apellido"
                                         placeholder="Apellido">
                                 </div>
                                     
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="ci"
+                                        <input type="text" class="form-control form-control-user" id="ci" name="ci"
                                             placeholder="C.I.">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="telefono"
+                                        <input type="number" class="form-control form-control-user" id="telefono" name="telefono"
                                             placeholder="Telefono">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="correo"
+                                    <input type="email" class="form-control form-control-user" id="correo" name="correo"
                                         placeholder="Correo">
                                 </div>
 
                     </div>
                                       
                     <div class="modal-footer">
-                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                     <button class="btn btn-outline-dark" type="button" data-dismiss="modal">Cancel</button>
 
 
                   
-                                  <button type="submit" class="btn btn-primary" >VENTA</button>
-                                  <button type="submit" class="btn btn-primary" >RESERVA</button>
+                                  <button type="submit" class="btn btn-outline-primary" >VENTA</button>
+                                  <button type="submit" class="btn btn-outline-primary" >RESERVA</button>
 
 
                                   <!-- <a class="btn btn-primary" >Logout</a> -->

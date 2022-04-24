@@ -1,252 +1,215 @@
 
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 
-            
-            <ul class="navbar-nav ml-auto">
-                <!-- Navbar Search -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-                        <i class="fas fa-search"></i>
-                    </a>
-                    <div class="navbar-search-block">
-                        <form class="form-inline">
-                            <div class="input-group input-group-sm">
-                                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                                <div class="input-group-append">
-                                    <button class="btn btn-navbar" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-                                    <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                  <i class="fas fa-times"></i>
-                </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </li> -->
+    <!-- Page Wrapper -->
+    <div id="wrapper">
 
-                <!-- Messages Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <!-- <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-comments"></i>
-                        <span class="badge badge-danger navbar-badge">3</span>
-                    </a> -->
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                                <!-- <img src="<?php echo base_url(); ?>adminLTE/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle"> -->
-                                <img src="<?php echo base_url(); ?>cargas/profesor/<?php echo $this->session->userdata('foto')?>.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-                                <!-- <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Brad Diesel
-                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">Call me whenever you can...</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div> -->
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                            <?php echo $this->session->userdata('login')?>
-                                <img src="<?php echo base_url(); ?>adminLTE/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-
-                                <!-- <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        John Pierce
-                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">I got your message bro</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div> -->
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                                <img src="<?php echo base_url(); ?>adminLTE/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                <!-- <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">The subject goes here</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div> -->
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <!-- <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a> -->
-                       
-                    </div>
-                   
-                    
-                  
-                </li>
-                <div>
-                    <?php
-                         echo form_open_multipart('usuario/logout');
-                         ?>
-                          <button type="submit" class="btn btn-outline-info" >SALIR</button>
-                          <?php
-                              echo form_close();
-                          ?>
-                    <?php
-                         echo form_open_multipart('profesor/modificar2');
-                          ?>
-                          <input type="hidden" name="idUsuario" value="<?php echo $this->session->userdata('idUsuario')?>">
-                          <!-- <input type="hidden" name="idUsuario" value="<?php echo $row->idUsuario;?>"> -->
-
-                           <button type="submit" class="btn btn-outline-info" >Gestionar Cuenta/<?php echo $this->session->userdata('nombres')?> </button>
-                         <?php
-                             echo form_close();
-                     ?>
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <!-- <i class="fas fa-laugh-wink"></i> -->
                 </div>
-                <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <!-- <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-bell"></i>
-                        <span class="badge badge-warning navbar-badge">15</span>
-                    </a> -->
-                    <!-- <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <span class="dropdown-item dropdown-header">15 Notifications</span>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-envelope mr-2"></i> 4 new messages
-                            <span class="float-right text-muted text-sm">3 mins</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-users mr-2"></i> 8 friend requests
-                            <span class="float-right text-muted text-sm">12 hours</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-file mr-2"></i> 3 new reports
-                            <span class="float-right text-muted text-sm">2 days</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-                    </div> -->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        <i class="fas fa-th-large"></i>
-                    </a>
-                </li> -->
-            </ul>
-        </nav>
-        <!-- /.navbar -->
-
-        <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="" class="brand-link">
-                <img src="<?php echo base_url(); ?>adminLTE/dist/img/2.png" alt="AdminLTE Logo"  class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">Profesor</span>
+                <div class="sidebar-brand-text mx-3">Administrador<sup></sup></div>
             </a>
 
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar user (optional) -->
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="image">
-                        <!-- aca viene la imagen de user profe -->
-                        <!-- <img src="<?php echo base_url(); ?>adminLTE/dist/img/userlogo.png" class="img-circle elevation-2" alt="User Image"> -->
-                        <img src="<?php echo base_url(); ?>cargas/profesor/<?php echo $this->session->userdata('foto')?>" class="img-circle elevation-2" alt="Sin Imagen">
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
 
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/test">
+                    <i class="fas fa-fw fa-bars"></i>
+                    <span>Inicio</span></a>
+            </li>
 
-                    </div>
-                    <div class="info">
-                        <a href="#" class="d-block"><?php echo $this->session->userdata('nombres')?> </a>
+            
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <!-- <div class="sidebar-heading">
+                Addons
+            </div> -->
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-user"></i>
+                    
+                    <span>Usuario</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Opciones:</h6>
+                        <!-- <a class="collapse-item" href="login.html">Login</a> -->
+                        <a class="collapse-item" href="">Registrar</a>
+                        <a class="collapse-item" href="">Editar</a>
+                        <a class="collapse-item" href="">Eliminar</a>
+
+                        <!-- <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Other Pages:</h6>
+                        <a class="collapse-item" href="404.html">404 Page</a>
+                        <a class="collapse-item" href="blank.html">Blank Page</a> -->
                     </div>
                 </div>
+            </li>
 
-                <!-- SidebarSearch Form -->
-                <!-- <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-              <i class="fas fa-search fa-fw"></i>
-            </button>
-                        </div>
-                    </div>
-                </div> -->
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-fw fa-users"></i>
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <span>Cliente</span></a>
+            </li>
 
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona/zona">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Zona/Precio</span></a>
+            </li>
 
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
 
-
-                        
-                        <li class="nav-item menu-open">
-                            <!-- <a href="#" class="nav-link active">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>
-                                    REGISTROS
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a> -->
-                            <ul class="nav nav-treeview">
-                                <!-- <li class="nav-item">
-                                    <a href="<?php echo base_url(); ?>index.php/profesor/profeCurso" class="nav-link">
-                                    <i class="nav-icon fas fa-chalkboard-teacher"></i>
-                                        <p>Curso</p>
-                                    </a>
-                                </li> -->
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url(); ?>index.php/profesor/profeEstudiante" class="nav-link">
-                                    <i class="nav-icon fas fa-user-graduate"></i>
-                                        <p>Estudiantes</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url(); ?>index.php/profesor/profeMateria" class="nav-link">
-                                    <i class="nav-icon fas fa-book"></i>
-                                        <p>Materias/Notas</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url(); ?>index.php/profesor/profeMateria" class="nav-link">
-                                        <i class="nav-icon fas fa-tasks"></i>
-                                        <p>Notas</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url(); ?>index.php/profesor/profeListaComunicado" class="nav-link">
-                                    <i class="nav-icon far fa-clipboard"></i>
-                                        <p>Comunicado</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        
-
-
-                        
-                        
-                    </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-            <!-- /.sidebar -->
-        </aside>
+
+            <!-- Sidebar Message -->
+            <!-- <div class="sidebar-card d-none d-lg-flex">
+                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
+                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+            </div> -->
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Buscar por...."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        
+
+                        <!-- Nav Item - Messages -->
+                        
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('login')?> </span>
+                                <img class="img-profile rounded-circle"
+                                    src="<?php echo base_url(); ?>starbootstrap/img/perfil.jpg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Perfil
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Configuracion
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Actividad
+                                </a>
+                                <div ></div>
+                                    
+
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Cerrar sesion
+                                    </a>
+                                   
+                                
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Salon</h1>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                    </div> -->
+
+                    <!-- Content Row -->
+                  
+
+                    <!-- Content Row -->
+
+           
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+           

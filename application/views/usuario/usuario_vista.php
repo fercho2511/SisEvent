@@ -19,53 +19,12 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/test">
                     <i class="fas fa-fw fa-bars"></i>
                     <span>Inicio</span></a>
             </li>
 
-            <!-- linea para divivir la barra -->
-            <!-- <hr class="sidebar-divider"> -->
-
-            <!-- Heading -->
-            <!-- <div class="sidebar-heading">
-                Interface
-            </div> -->
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
-            </li> -->
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
-                    </div>
-                </div>
-            </li> -->
+          
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -109,9 +68,9 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona_pre/zona">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Otros</span></a>
+                    <span>Zona/Precio</span></a>
             </li>
 
             <!-- Divider -->
@@ -384,8 +343,10 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Precios</div>
+                                             <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#logoutModal2" title ="Asignar zona y precio">
+                                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Zona y Precio</div>                                            
+                                            </a> 
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
                                         </div>
                                         <div class="col-auto">

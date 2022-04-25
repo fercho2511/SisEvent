@@ -31,6 +31,16 @@ class Zona_model extends CI_Model {
             $this->db->insert('zona',$data);
 
         }
+
+
+
+        public function modificarEstudiante($idZona,$datos){
+
+        //aca pondremos la consulta para modificar lso datos de la zona 
+        $this->db->where ('idZona',$idZona);
+        $this->db->update('zona',$datos);
+
+        }
     
 
 }

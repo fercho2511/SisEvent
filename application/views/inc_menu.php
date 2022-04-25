@@ -67,7 +67,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona/zona">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona_pre/zona">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Zona/Precio</span></a>
             </li>

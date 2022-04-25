@@ -1,4 +1,5 @@
 
+
          <div class="row">
 
 <!-- Area Chart -->
@@ -84,6 +85,7 @@
                          <tbody>
                                             <tr>
                                                 <td><?php echo $indice;?></td>
+
                                                 <td><?php echo $row->zona;?></td> 
                                                 <td><?php echo $row->precio;?></td>
                                                 <td><?php echo $row->descripcion;?></td>
@@ -92,14 +94,23 @@
                                                 <?php
                                                         echo form_open_multipart('zona_pre/modificar')
                                                     ?>
-                                                    <input type="hidden" name="idZona" value="<?php echo $row->idZona;?>">
-                                                    <button type="submit" class="btn btn-outline-dark" title="Modificar">
+                                   
+                                                    <!-- <input type="hidden" name="idZona" value="<?php echo $row->idZona;?>"> -->
+                                                    <!-- <button type="submit" class="btn btn-outline-dark" title="Modificar">
                                                     <span class="fas fa-user-edit"></span>
 
-                                                    </button>
+                                                    </button> -->
+                                                    <a class="btn btn-outline-dark" href="#" data-toggle="modal" data-target="#logoutModal3" title="Modificar">
+                                                    <span class="fas fa-user-edit"></span>
+                                                    <input type="hidden" name="idZona" value="<?php $idZ;?>">
+
+                                                    </a>
                                                     <?php
                                                         echo form_close();
                                                     ?>
+                                                    <!-- probando -->
+                                                 
+                                                    <!--  -->
 
                                                 <?php
                                                         echo form_open_multipart('zona_pre/eliminarZona')
@@ -118,9 +129,9 @@
                                             </tr>
                                             </tbody>
                                             <?php
-                        $indice++;
-                    }
-                    ?> 
+                                            $indice++;
+                                        }
+                                        ?> 
 
 
                                    

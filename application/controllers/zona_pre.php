@@ -16,9 +16,7 @@ class Zona_pre extends CI_Controller {
 
 	}
 
-	public function modificarZona (){
-
-	}
+	
 
 
 	public function eliminarZona()
@@ -40,6 +38,24 @@ class Zona_pre extends CI_Controller {
 		$this->zona_model->crearZon($data);
 		redirect('zona_pre/zona','refresh');
 
+	}
+
+
+	public function modificarZona(){
+
+		
+        // $idZona=$_POST['idZona'];
+        // $data['zona']=$_POST['zona'];
+        // $data['precio']=$_POST['precio'];		
+        // $data['descripcion']=$_POST['descripcion'];
+        // // $data['idUsuario_Acciones']=$_POST['idUsuario_Acciones'];
+
+
+        // //ahora la consula
+        // $this->zona_model->modificarZona($idUsuario,$data);
+        // //esta linea ya realiza la actualizacion
+
+		// redirect('zona_pre/zona','refresh');
 	}
 
 	

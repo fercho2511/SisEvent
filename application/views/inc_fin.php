@@ -109,8 +109,63 @@
     <!-- asta aca modal para zona -->
 
 
+    <!-- modal para editar zona -->
+    <!-- modal para registrar zona y silla -->
+    <div class="modal fade" id="logoutModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">MODIFICAR ZONA</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                
+                         <tbody>
+                <div class="form-group row">
+
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="numMesa" name="zona" 
+                                            placeholder="ZONA" value="">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="number" class="form-control form-control-user" id="zona" name="precio" value="" 
+                                            placeholder="PRECIO">
+                                    </div>
+                                </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-secondary" type="button" data-dismiss="modal">Cancel</button>
+
+
+                    <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+
+                                  <button type="submit" class="btn btn-outline-primary" >MODIFICAR</button>
+
+                                  <!-- <a class="btn btn-primary" >Logout</a> -->
+                                    </a>
+                                    
+
+                </div>
+            </div>
+            <?php
+                                        echo form_close();
+                                    ?>
+        </div>
+    </div>
+    <!-- asta aca modal para zona -->
+    <!-- asta aca modal para editar zona -->
+
+
     <!--  desde aca se realizara la venrtana modal pra la venta o reserva  -->
-    <div class="modal fade" id="logoutModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="logoutModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

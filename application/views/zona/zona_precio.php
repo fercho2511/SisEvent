@@ -89,27 +89,22 @@
                                                 <td><?php echo $row->zona;?></td> 
                                                 <td><?php echo $row->precio;?></td>
                                                 <td><?php echo $row->descripcion;?></td>
+                                                <?php $datazona = $row->zona;?>
+                                                <?php $dataprecio = $row->precio;?>
+                                                <?php $datadescripcion = $row->descripcion;?>
+
                                                 <td>
-                                                <div class="btn-group btn-group-justified" >
-                                                <?php
-                                                        echo form_open_multipart('zona_pre/modificar')
-                                                    ?>
-                                   
-                                                    <!-- <input type="hidden" name="idZona" value="<?php echo $row->idZona;?>"> -->
-                                                    <!-- <button type="submit" class="btn btn-outline-dark" title="Modificar">
-                                                    <span class="fas fa-user-edit"></span>
+                                                <div class="btn-group btn-group-justified" >                                               
 
                                                     </button> -->
                                                     <a class="btn btn-outline-dark" href="#" data-toggle="modal" data-target="#logoutModal3" title="Modificar">
                                                     <span class="fas fa-user-edit"></span>
                                                     <input type="hidden" name="idZona" value="<?php $idZ;?>">
-
-                                                    </a>
-                                                    <?php
-                                                        echo form_close();
-                                                    ?>
+                                                    </a>                                                   
                                                     <!-- probando -->
-                                                 
+                                                    <button type="button" class="btn btn-info btn-view-cliente" data-toggle="modal" data-target="#logoutModal3" value="<?php echo $datazona?>">
+                                                        <span class="fa fa-search"></span>
+                                                    </button>
                                                     <!--  -->
 
                                                 <?php

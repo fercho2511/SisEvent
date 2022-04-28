@@ -60,7 +60,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/cliente/listaCliente">
                     <i class="fas fa-fw fa-users"></i>
                     <!-- <i class="fa-solid fa-user"></i> -->
                     <span>Cliente</span></a>
@@ -269,7 +269,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('login')?> </span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('nombres')?> </span>
                                 <img class="img-profile rounded-circle"
                                     src="<?php echo base_url(); ?>starbootstrap/img/perfil.jpg">
                             </a>
@@ -460,11 +460,13 @@
                             <rect  id="mesa1" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
                             </a>  
 
-                     <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+
+                             
+                     <a xlink:href="<?php echo base_url()?>mantenimiento/clientes/edit/9" xlink:title="Silla 9" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
                         <rect  id="silla1" name="silla1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                     </a>
                     
-                    <a xlink:href="" xlink:title="Silla 3" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
+                    <a xlink:href="<?php echo base_url()?>mantenimiento/clientes/edit/3" xlink:title="Silla 3" class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal1">
                     <rect x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                     </a>  
 

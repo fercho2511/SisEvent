@@ -7,10 +7,10 @@ class Silla_model extends CI_Model {
 
 	//este metdo devolvera la lista de estudiantes de la db
         //consulta para leer la lista 
-    function registrarSilla()
+    function registrarSilla($data)
     {
         # code... registraremso al silla a nombre de un cliente
-        $this->db->insert('usuario',$data); // aca la clave ses construir bien data, q va a contener
+        $this->db->insert('cliente',$data); // aca la clave ses construir bien data, q va a contener
 
     }
 

@@ -59,7 +59,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/cliente/listaCliente">
                     <i class="fas fa-fw fa-users"></i>
                     <!-- <i class="fa-solid fa-user"></i> -->
                     <span>Cliente</span></a>

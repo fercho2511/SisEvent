@@ -131,10 +131,10 @@
 
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="text" class="form-control form-control-user" id="numMesa" name="zona" 
-                                            placeholder="ZONA" value="">
+                                            placeholder="ZONA" value="<?php echo $datazona?>">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="zona" name="precio" value="" 
+                                        <input type="number" class="form-control form-control-user" id="zona" name="precio" value="<?php echo $dataprecio?>"
                                             placeholder="PRECIO">
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
 
 
     <!--  desde aca se realizara la venrtana modal pra la venta o reserva  -->
-    <div class="modal fade" id="logoutModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="logoutModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -175,75 +175,74 @@
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <?php
-                     echo form_open_multipart('silla/registrarSilla');
-                  ?>
-                <div class="chart-pie pt-10 pb-4">
-                <!-- <input type="text" name="silla" value=" silla 1"> -->
+                
+                   <form action="<?php echo base_url();?>index.php/silla/registrarSilla" method="POST">
+                    
+                        <div class="chart-pie pt-10 pb-4">
+                        <!-- <input type="text" name="silla" value=" silla 1"> -->
 
-                    <div>
+                            <div>
 
-                    <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
+                            <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
-                                <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="numMesa" name="numSilla" value="1"
-                                            placeholder="mesa">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="zona" name="zona" value="2"
-                                            placeholder="zona">
-                                    </div>
-                                </div>
-
-
-                                <div class="form-group">
-
-                                    <input type="text" class="form-control form-control-user" id="nombre" name="nombre"
-
-                                        placeholder="Nombre">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" id="apellido" name="apellido"
-                                        placeholder="Apellido">
-                                </div>
-                                    
-                                <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="ci" name="ci"
-                                            placeholder="C.I.">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="telefono" name="telefono"
-                                            placeholder="Telefono">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="correo" name="correo"
-                                        placeholder="Correo">
-                                </div>
-
-                    </div>
-                                      
-                    <div class="modal-footer">
-                     <button class="btn btn-outline-dark" type="button" data-dismiss="modal">Cancel</button>
+                                        <div class="form-group row">
+                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                <input type="text" class="form-control form-control-user" id="numMesa" name="numSilla" value="1"
+                                                    placeholder="mesa">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="number" class="form-control form-control-user" id="zona" name="zona" value="2"
+                                                    placeholder="zona">
+                                            </div>
+                                        </div>
 
 
-                  
-                                  <button type="submit" class="btn btn-outline-primary" >VENTA</button>
-                                  <button type="submit" class="btn btn-outline-primary" >RESERVA</button>
+                                        <div class="form-group <?php echo form_error("nombres") != false ? 'has-error':'';?>">
+
+                                            <input type="text" class="form-control form-control-user" id="nombre" name="nombres"
+                                                placeholder="Nombre">
+                                                <?php echo form_error("nombres","<span class='help-block'>","</span>");?>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-user" id="apellido" name="apellidos"
+                                                placeholder="Apellido">
+                                        </div>
+                                            
+                                        <div class="form-group row">
+                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                <input type="text" class="form-control form-control-user" id="ci" name="ci"
+                                                    placeholder="C.I.">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="number" class="form-control form-control-user" id="telefono" name="telefono"
+                                                    placeholder="Telefono">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-control-user" id="correo" name="correo"
+                                                placeholder="Correo">
+                                        </div>
+
+                            </div>
+                                            
+                            <div class="modal-footer">
+                            <button class="btn btn-outline-dark" type="button" data-dismiss="modal">Cancel</button>
 
 
-                                  <!-- <a class="btn btn-primary" >Logout</a> -->
-                                    </a>
-                                   
+                        
+                                        <button type="submit" class="btn btn-outline-primary" >VENTA</button>
+                                        <button type="submit" class="btn btn-outline-primary" >RESERVA</button>
 
-                    </div>
-                </div>
-                <?php
-                                        echo form_close();
-                                    ?>
+
+                                        <!-- <a class="btn btn-primary" >Logout</a> -->
+                                            </a>
+                                        
+
+                            </div>
+                        </div>
+                </form>
 
         </div>
     </div>
@@ -265,7 +264,7 @@
     <!-- Page level custom scripts -->
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-area-demo.js"></script>
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-pie-demo.js"></script>
-    <!-- <script src="<?php echo base_url(); ?>starbootstrap/js/get_coordenadas.js"></script> -->
+    <script src="<?php echo base_url(); ?>starbootstrap/js/validar/formulario_usuario.js"></script>
 
 </body>
 

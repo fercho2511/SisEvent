@@ -14,4 +14,9 @@ class Silla_model extends CI_Model {
 
     }
 
+    public function registroSilla($data2)
+    {
+        $this->db->insert('silla',$data2); 
+    }
+
 }

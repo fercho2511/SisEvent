@@ -265,6 +265,22 @@ class Cliente extends CI_Controller {
         //     }
 
 	}
+
+    public function send($mes){
+
+        $lista=$this->usuarioper_model->lista();
+        $data['usuario']=$lista; 
+
+        $data['arrZona'] = $this->zona_model->get_zona();  
+        $mesa= $mes;  
+
+              
+
+		$this->load->view('inc_inicio.php');
+        // $this->load->view('inc_menu2.php');
+		$this->load->view('usuario/usuario_vista',$data,$mesa);
+		$this->load->view('inc_fin.php');
+    }
        
 
     

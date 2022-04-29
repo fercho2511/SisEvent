@@ -3,52 +3,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Silla extends CI_Controller {
-
-
-    // function registrarSilla()
-    // {
-    //     # code...
-        
-    //         $this->load->library(array('form_validation'));
-    //         $this->load->helper('form');
-    //         $data['numSilla']=$_POST['numSilla'];
-    //         $data['zona']=$_POST['zona'];
-    //         $data['nombre']=$_POST['nombre'];
-    //         $data['apellido']=$_POST['apellido'];
-    //         $data['telefono']=$_POST['telefono'];
-    //         $data['ci']=$_POST['ci'];
-    //         $data['correo']=$_POST['correo'];
-    //         //provando loguin
-           
-    //         $data['idUsuario_Acciones'] =$_POST['idUsuario_Acciones'];  
-    //         $this->silla_model->registrarSilla($data);
-    //         redirect('usuario_per/test', 'refresh');
-    //     // if ($this->form_validation->run()==FALSE) {
-    //     //     # code...
-    //     //     // $data=$config;
-    //     //     echo '<script>
-    //     //     alert("CI YA REGISTRADO");
-    //     //     </script>'; 
-    //     //     //  redirect($_SERVER['HTTP_REFERER']);
-
-    //     //         redirect('usuario_per/agregar','refresh');
-
-    //     //     // $data=$config;
-    //     //     // redirect('usuario_per/agregar',$data);
-    //     // }
-    //     // else {
-    //     //     // $this->load->view('formsuccess');
-    //     //     $data['login']=$this->usuarioper_model->crearLoguin($nom,$ap,$am,$ci); 
-    //     //     $data['password']=md5($this->usuarioper_model->crearLoguin($nom,$ap,$am,$ci)); 
-    //     //     $this->usuarioper_model->agregarUsuario($data); 
-    //     //     echo '<script>
-    //     //     alert("Registro Satisfactorio");
-    //     //     </script>';
-    //     //     redirect('usuario_per/test','refresh');
-   
-    //     // }
-
-    // }
+    
     public function registrarSilla(){
 
 		$nombres = $this->input->post("nombres");
@@ -56,9 +11,10 @@ class Silla extends CI_Controller {
 		$ci = $this->input->post("ci");
 		$correo = $this->input->post("correo");
 		$telefono = $this->input->post("telefono");
+        $numSilla = $this->input->post("numSilla");
+		$zona = $this->input->post("zona");
+
         $idUsuario=$this->session->userdata('idusuario');
-
-
 
 		$this->form_validation->set_rules("nombres","Nombre del Cliente","required");
 		// $this->form_validation->set_rules("apellidos","Apellidos","required");
@@ -72,34 +28,63 @@ class Silla extends CI_Controller {
 				'correo' => $correo,
 				'telefono' => $telefono,
 				'ci' => $ci,
-                'usuario_idUsuario' => $idUsuario,
-
-
+                'usuario_idUsuario' => $idUsuario,               
 			);
+            try {
+                //code...
 
-			if ($this->silla_model->registrarSilla($data)) {
+                        $this->db->trans_begin();  //iniciamso la transaccion
+                        $this->silla_model->registrarSilla($data);
+                        $id= $this->db->insert_id();
+
+                        if ($id>0) {
+                           $idZon=$this->zona_model->getZona($zona);
+                            $data2  = array(                   
+                                'idUsuarioAcciones' => $idUsuario,
+                                'numSilla' => $numSilla,
+                                'idZona' => $idZon,
+                                'idCliente'=>$id,
+                            );                
+                            $this->silla_model->registroSilla($data2);
+                            $this->db->trans_commit();
+                            echo '<script>
+                            alert("Registro de Silla exitosa");
+                            </script>';
+                            redirect('usuario_per/test', 'refresh');
+
+                            // redirect(base_url()."index.php/usuario_per/test");	
+                        }  
+                    
+                    else{
+                        // $this->test();
+                        echo '<script>
+                            alert("Error de Registro");
+                            </script>'; 
+                                redirect('usuario_per/test', 'refresh');
+                    }
+                }
+                    catch (Exception $ex) {
+                        $this->db->trans_rollback();
+                        echo '<script>
+                        alert("Se detecto una falla en el proceso, vuelva a intentarlo profavor");
+                        </script>';
+                        redirect('usuario_per/test','refresh');
+                    }
                 
-				redirect(base_url()."index.php/usuario_per/test");
-			}
-			else{
-				$this->session->set_flashdata("error","No se pudo guardar la informacion");
-				redirect(base_url()."index.php/usuario_per/test");
-			}
-		}
-		 else{
-			// $this->test();
-            echo '<script>
-                alert("Error de Registro");
-                </script>'; 
-                    redirect('usuario_per/test', 'refresh');
-		 }
 
+        }
+         //para al transaccion
+      
+           
+
+            
+     
 		
 	}
 
 
         
-       
+
 
     
     

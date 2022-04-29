@@ -6,18 +6,21 @@
 <div class="col-xl-2 ">
     <div class="card shadow mb-2">
         <!-- Card Header - Dropdown -->
-        <div
-            class="card-header py-1 align-items-center justify-content-between">
-            <div class="col-sm-14">
+        
+            
                        
 
-                                    <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#logoutModal2">
-                                    <i class="fas fa-user-plus"></i>
+                                    <a class="btn btn-primary btn-flat" href="#" data-toggle="modal" data-target="#logoutModal2">
+                                    <i class="fa fa-plus"></i>
                                     Agregar Zona
                                     </a>
-             </div>
+
+                                    <!-- <div class="col-md-12">
+                                        <a href="<?php echo base_url();?>index.php/cliente/addCliente" class="btn btn-primary btn-flat"><span class="fa fa-plus"></span> Agregar Clientes</a>
+                                    </div> -->
+            
            
-        </div>
+       
  
 
         <!-- asta este punto perteence la imagen del mapa -->
@@ -96,16 +99,13 @@
                                                 <td>
                                                 <div class="btn-group btn-group-justified" >                                               
 
-                                                    </button> -->
+                                                    </button> 
                                                     <a class="btn btn-outline-dark" href="#" data-toggle="modal" data-target="#logoutModal3" title="Modificar">
                                                     <span class="fas fa-user-edit"></span>
                                                     <input type="hidden" name="idZona" value="<?php $idZ;?>">
                                                     </a>                                                   
                                                     <!-- probando -->
-                                                    <button type="button" class="btn btn-info btn-view-cliente" data-toggle="modal" data-target="#logoutModal3" value="<?php echo $datazona?>">
-                                                        <span class="fa fa-search"></span>
-                                                    </button>
-                                                    <!--  -->
+                                                 
 
                                                 <?php
                                                         echo form_open_multipart('zona_pre/eliminarZona')

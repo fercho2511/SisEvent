@@ -3,14 +3,14 @@
 
 
 
-  <footer class="sticky-footer bg-white">
+     <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span><b>Desarrolado by &copy; FSL </b> 2022</span>
                         <b>Version</b> 1.0
                     </div>
                 </div>
-            </footer>
+    </footer>
 
 
             <!-- End of Footer -->
@@ -168,40 +168,45 @@
     <div class="modal fade" id="logoutModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-content" >
+                <div class="modal-header" margin= "30px">
                     <h5 class="modal-title" id="exampleModalLabel">Registrar venta/reserva</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
+                <div class="chart-pie pt-10 pb-4" >
+
+                
                 
                    <form action="<?php echo base_url();?>index.php/silla/registrarSilla" method="POST">
                     
-                        <div class="chart-pie pt-10 pb-4">
+                        <div class="chart-pie pt-16 pb-8">
                         <!-- <input type="text" name="silla" value=" silla 1"> -->
 
-                            <div>
+                            
 
-                            <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
+                                <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
                                         <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="text" class="form-control form-control-user" id="numMesa" name="numSilla" value="1"
-                                                    placeholder="mesa">
+                                            <div class="col-sm-2 ">
+                                            <label for="nombre">Mesa: <input type="text" class="form-control form-control-user" id="numMesa" name="numSilla" value="1"
+                                                    placeholder="mesa"></label>
+                                                
                                             </div>
-                                            <div class="col-sm-6">
-                                                <input type="number" class="form-control form-control-user" id="zona" name="zona" value="2"
-                                                    placeholder="zona">
+                                            <div class="col-sm-2">
+                                            <label for="nombre">Zona: <input type="number" class="form-control form-control-user" id="zona" name="zona" value="2"
+                                                    placeholder="zona"></label>
+
+                                                
                                             </div>
                                         </div>
 
 
-                                        <div class="form-group <?php echo form_error("nombres") != false ? 'has-error':'';?>">
+                                        <div class="form-group ">
 
                                             <input type="text" class="form-control form-control-user" id="nombre" name="nombres"
                                                 placeholder="Nombre">
-                                                <?php echo form_error("nombres","<span class='help-block'>","</span>");?>
 
                                         </div>
 
@@ -225,10 +230,10 @@
                                                 placeholder="Correo">
                                         </div>
 
-                            </div>
+                            
                                             
                             <div class="modal-footer">
-                            <button class="btn btn-outline-dark" type="button" data-dismiss="modal">Cancel</button>
+                                <button class="btn btn-outline-dark" type="button" data-dismiss="modal">Cancel</button>
 
 
                         
@@ -243,10 +248,15 @@
                             </div>
                         </div>
                 </form>
+                </div>
 
         </div>
     </div>
     <!-- end modal windows -->
+
+    <!-- aca provando otro modal -->
+    
+    <!-- asta esta la prueba -->
 
     <!-- Bootstrap core JavaScript-->
     <script src="<?php echo base_url(); ?>starbootstrap/vendor/jquery/jquery.min.js"></script>

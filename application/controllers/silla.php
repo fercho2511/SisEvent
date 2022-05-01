@@ -19,7 +19,20 @@ class Silla extends CI_Controller {
 		$this->form_validation->set_rules("nombres","Nombre del Cliente","required");
 		// $this->form_validation->set_rules("apellidos","Apellidos","required");
 		$this->form_validation->set_rules("telefono","Telefono - Celular","required");
-		$this->form_validation->set_rules("ci","Numero del Documento","required|is_unique[cliente.ci]");
+		$this->form_validation->set_rules("numSilla","Numero de Silla","required|is_unique[silla.numSilla]");
+
+        $config=array(
+            array(
+                'field'=>'numSilla',
+                'label' =>'Silla',
+                'rules' =>'is_unique[silla.numSilla]',
+                // 'errors'=> array(
+                //         'is_unique' =>'El %s. ya se encuentra registrado',
+                // ),
+
+            ),
+        );
+        $this->form_validation->set_rules($config);
 
 		if ($this->form_validation->run()) {
 			$data  = array(
@@ -72,6 +85,14 @@ class Silla extends CI_Controller {
                     }
                 
 
+        }
+        else {
+            //esto hayq modificar para q no se registre al msima silla
+            $this->db->trans_rollback();
+            echo '<script>
+            alert("Silla ya Registrada");
+            </script>';
+            redirect('usuario_per/test','refresh');
         }
          //para al transaccion
       

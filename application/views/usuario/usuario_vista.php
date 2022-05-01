@@ -331,7 +331,7 @@
 
                         
 
-                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
                         
                             <a xlink:href="" xlink:title="mesa 1" class="dropdown-item" href="#" >
@@ -381,7 +381,7 @@
                     </a>  
 
 
-                      <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
+                    <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
                     <rect  id="mesa 2" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                     </a>    
 

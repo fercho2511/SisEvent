@@ -35,27 +35,12 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
+         
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-user"></i>
-                    
-                    <span>Usuario</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Opciones:</h6>
-                        <!-- <a class="collapse-item" href="login.html">Login</a> -->
-                        <a class="collapse-item" href="">Registrar</a>
-                        <a class="collapse-item" href="">Editar</a>
-                        <a class="collapse-item" href="">Eliminar</a>
-
-                        <!-- <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a> -->
-                    </div>
-                </div>
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/listaUsuario">
+                <i class="fas fa-fw fa-user"></i>
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <span>Usuario</span></a>
             </li>
 
             <!-- Nav Item - Charts -->
@@ -147,121 +132,14 @@
                         </li>
 
                         <!-- Nav Item - Alerts -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
-                            </a>
-                            <!-- Dropdown - Alerts -->
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="alertsDropdown">
-                                <h6 class="dropdown-header">
-                                    Alerts Center
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-primary">
-                                            <i class="fas fa-file-alt text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 12, 2019</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 7, 2019</div>
-                                        $290.29 has been deposited into your account!
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 2, 2019</div>
-                                        Spending Alert: We've noticed unusually high spending for your account.
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-                            </div>
-                        </li>
+                        <!-- <li class="nav-item dropdown no-arrow mx-1">
+                           
+                        </li> -->
 
                         <!-- Nav Item - Messages -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <!-- Counter - Messages -->
-                                <span class="badge badge-danger badge-counter">7</span>
-                            </a>
-                            <!-- Dropdown - Messages -->
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="messagesDropdown">
-                                <h6 class="dropdown-header">
-                                    Message Center
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
-                                        <div class="status-indicator bg-success"></div>
-                                    </div>
-                                    <div class="font-weight-bold">
-                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                            problem I've been having.</div>
-                                        <div class="small text-gray-500">Emily Fowler · 58m</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
-                                        <div class="status-indicator"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">I have the photos that you ordered last month, how
-                                            would you like them sent to you?</div>
-                                        <div class="small text-gray-500">Jae Chun · 1d</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
-                                        <div class="status-indicator bg-warning"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">Last month's report looks great, I am very happy with
-                                            the progress so far, keep up the good work!</div>
-                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
-                                            alt="...">
-                                        <div class="status-indicator bg-success"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
-                                            told me that people say this to all dogs, even if they aren't good...</div>
-                                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
-                            </div>
-                        </li>
+                        <!-- <li class="nav-item dropdown no-arrow mx-1">
+                           
+                        </li> -->
 
                         <div class="topbar-divider d-none d-sm-block"></div>
 
@@ -461,45 +339,45 @@
                             </a>  
 
 
-                            <!-- data-toggle="modal" data-target="#logoutModal1" -->
-                     <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" onclick="miFunc()">
-                        <rect  id="silla1" name="1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                    </a>
-                    
+                            <!-- data-toggle="modal" data-target="#logoutModal1" onclick="miFunc()-->
+                     <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" href="#" >
+                     <rect onclick="miFunc(9);"   id="silla1" name="1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                     </a>  
+
                     <a xlink:href="" xlink:title="Silla 3" class="dropdown-item" href="#" >
-                    <rect x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    <rect onclick="miFunc(3);" x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                     </a>  
 
                      <a xlink:href="" xlink:title="Silla 5" class="dropdown-item" href="#"  >
-                        <rect x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
+                        <rect onclick="miFunc(5);" x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
                     </a>
                         
                     <a xlink:href="" xlink:title="Silla 7" class="dropdown-item" href="#" >
-                    <rect x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
+                    <rect onclick="miFunc(7);" x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 8" class="dropdown-item" href="#"  >
-                    <rect x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
+                    <rect onclick="miFunc(8);" x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 2" class="dropdown-item" href="#"  >
-                    <rect x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
+                    <rect onclick="miFunc(2);" x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 4" class="dropdown-item" href="#"  >
-                    <rect x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
+                    <rect onclick="miFunc(4);" x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 6" class="dropdown-item" href="#" >
-                    <rect x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
+                    <rect onclick="miFunc(6);" x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 10" class="dropdown-item" href="#" >
-                    <rect x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
+                    <rect onclick="miFunc(10);" x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
                     </a>
 
                     <a xlink:href="" xlink:title="Silla 1" class="dropdown-item" href="#" >
-                    <rect x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
+                    <rect onclick="miFunc(1);" x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                     </a>  
 
 
@@ -1279,7 +1157,7 @@
                                     <div class="form-group row">
                                         <div id="output" class="col-sm-5 mb-3 mb-sm-0">
                                             <label for="">Silla: 
-                                            <input type="text" class="form-control form-control-user" id="silla" name="numSilla" value="" 
+                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla" 
                                                 placeholder="silla"> </label>
                                         
                                         </div>
@@ -1373,11 +1251,16 @@
 
             </div>
             <script>
-                function miFunc() {
-                    alert('Se ha dado clic al botón!');
+                function miFunc(p2) {
+                    let num=p2;
+                    // alert(p1 + " "+ p2);
+                    // document.getElementByID("sillaEvent").value=p2;
+                    $("#sillaEvent").val(`${num}`)   
+
+
                 }
                 </script>
-            <!-- End of Main Content -->
+           <!-- End of Main Content -->
 
             <!-- Footer -->
            

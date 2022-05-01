@@ -35,26 +35,10 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-user"></i>
-                    
-                    <span>Usuario</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Opciones:</h6>
-                        <!-- <a class="collapse-item" href="login.html">Login</a> -->
-                        <a class="collapse-item" href="">Registrar</a>
-                        <a class="collapse-item" href="">Editar</a>
-                        <a class="collapse-item" href="">Eliminar</a>
-
-                        <!-- <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a> -->
-                    </div>
-                </div>
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/listaUsuario">
+                <i class="fas fa-fw fa-user"></i>
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <span>Usuario</span></a>
             </li>
 
             <!-- Nav Item - Charts -->
@@ -157,7 +141,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('login')?> </span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('nombres')?> </span>
                                 <img class="img-profile rounded-circle"
                                     src="<?php echo base_url(); ?>starbootstrap/img/perfil.jpg">
                             </a>

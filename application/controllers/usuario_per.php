@@ -32,12 +32,12 @@ class Usuario_per extends CI_Controller {
  
 
 
-       public function modificar()
+       public function modificar($idUsuario)
     {
-        $idUsuario=$_POST['idUsuario'];
+        // $idUsuario=$idUsuario;
         $data['infousuario']=$this->usuarioper_model->obtenerUsuario($idUsuario);
         $this->load->view('inc_inicio.php');
-        $this->load->view('inc_menu2.php');
+        $this->load->view('inc_menu.php');
 		$this->load->view('usuario/modificar_usuario',$data);
 		$this->load->view('inc_fin.php');
     }
@@ -117,6 +117,21 @@ class Usuario_per extends CI_Controller {
         $this->usuarioper_model->modificarUsuario($idUsuario,$data);
 
         redirect('estudiante/estudiante/test','refresh');
+    }
+
+
+
+
+    public function listaUsuario(){
+        $lista=$this->usuarioper_model->lista();
+        $data['usu']=$lista; //otro array asociativo
+		$this->load->view('inc_inicio.php');
+        $this->load->view('inc_menu.php');
+		$this->load->view('usuario/usuario_list',$data);
+		$this->load->view('inc_fin.php');
+
+
+
     }
     // public function modificarLoguinAdmin()
     // {
@@ -218,10 +233,10 @@ class Usuario_per extends CI_Controller {
     
       public function agregar()
     {
-        $this->load->library(array('form_validation'));
+        // $this->load->library(array('form_validation'));
         $this->load->view('inc_inicio.php');
-        $this->load->view('inc_menu2.php');
-		$this->load->view('usuario/agregar_usuario'); 
+        $this->load->view('inc_menu.php');
+		$this->load->view('usuario/addUsuario'); 
 		$this->load->view('inc_fin.php');
 
     }
@@ -229,37 +244,34 @@ class Usuario_per extends CI_Controller {
  
 
     //agregar el usuario desde admin 
-     public function agregarUsu()
+     public function addUsuario()
      {       
           $this->load->library(array('form_validation'));
 
-        $this->load->helper('form');
-        $data['nombres']=$_POST['nombres'];
-                $data['apellidoPaterno']=$_POST['apellidoPaterno'];
-                $data['apellidoMaterno']=$_POST['apellidoMaterno'];
-                $data['sexo']=$_POST['sexo'];
+                $this->load->helper('form');
+                $data['nombres']=$_POST['nombres'];
+                $data['apellido1']=$_POST['apellido1'];
+                $data['apellido2']=$_POST['apellido2'];
+                // $data['sexo']=$_POST['sexo'];
                 $data['telefono']=$_POST['telefono'];
                 $data['ci']=$_POST['ci'];
-                $data['direccion']=$_POST['direccion'];
-                $data['fechaNacimiento']=$_POST['fechaNacimiento'];
+                $data['correo']=$_POST['correo'];
+                // $data['fechaNacimiento']=$_POST['fechaNacimiento'];
                 //provando loguin
                 $nom=$_POST['nombres'];
-                $ap=$_POST['apellidoPaterno'];
-                $am=$_POST['apellidoMaterno'];
+                $ap=$_POST['apellido1'];
+                $am=$_POST['apellido2'];
                 $ci=$_POST['ci'];
                 
-                $data['idUsuario_Acciones'] =$_POST['idUsuario_Acciones'];  
+                 $data['idUsuario_Acciones'] =$this->session->userdata('idusuario');
                 $rol=$_POST['rol'];
        
-                switch ($rol) {
-                   case 'Administrador':
-                       $data['idRol']='2';
+                switch ($rol) {                  
+                   case 'Admin':
+                       $data['idRol']='2';    
                        break;
-                   case 'Profesor':
-                       $data['idRol']='3';    
-                       break;
-                    case 'Estudiante':
-                       $data['idRol']='4';        
+                    case 'User':
+                       $data['idRol']='3';        
                         break; 
                }
         
@@ -300,7 +312,7 @@ class Usuario_per extends CI_Controller {
                 echo '<script>
                 alert("Registro Satisfactorio");
                 </script>';
-                redirect('usuario_per/test','refresh');
+                redirect('usuario_per/listaUsuario','refresh');
        
             }
 
@@ -349,22 +361,20 @@ class Usuario_per extends CI_Controller {
 
      }
 
-     public function habillitarUsu(){
-        $idUsuario=$_POST['idUsuario']; 
-         $idUsuario_Acciones=$_POST['idUsuario_Acciones'];
+     public function habillitarUsu($idUsuario){
+         $idUsuario_Acciones=$this->session->userdata('idusuario');
         $this->usuarioper_model->HabilUsuario($idUsuario,$idUsuario_Acciones);
        // $this->usuarioper_model->HabilUsuario($idUsuario);
 
-        redirect('usuario_per/test','refresh');
+        redirect('usuario_per/listaUsuario','refresh');
      }
 
-    public function desabilitarUsu(){
-        $idUsuario=$_POST['idUsuario']; 
+    public function desabilitarUsu($idUsuario){
         // $idUsuario_Acciones=$_POST['idUsuario_Acciones'];
        // $this->usuarioper_model->bajaUsuario($idUsuario,$idUsuario_Acciones);
         $this->usuarioper_model->bajaUsuario($idUsuario);
 
-        redirect('usuario_per/test','refresh');
+        redirect('usuario_per/listaUsuario','refresh');
     }
 
 

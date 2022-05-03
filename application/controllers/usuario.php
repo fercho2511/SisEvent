@@ -56,9 +56,9 @@ class Usuario extends CI_Controller {
         $estado='1';
         //va a lelgar datos desde un formulario
         $login=$_POST['login'];
-      //  $password=md5($_POST['password']); //lo encriptamso directamente
+        $password=md5($_POST['password']); //lo encriptamso directamente
         //antes de encriptar aremos la prueva 
-        $password=$_POST['password'];
+        //$password=$_POST['password'];
 
         $consulta=$this->usuario_model->validar($login,$password,$estado);
 

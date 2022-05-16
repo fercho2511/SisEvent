@@ -28,6 +28,20 @@ class Usuario_per extends CI_Controller {
 		$this->load->view('inc_fin.php');
 
 	}
+    public function test2()
+	{
+     
+        $lista=$this->usuarioper_model->lista();
+        $data['usuario']=$lista; 
+
+        $data['arrZona'] = $this->zona_model->get_zona();        
+
+		$this->load->view('inc_inicio.php');
+        // $this->load->view('inc_menu2.php');
+		$this->load->view('usuario/usuario_vista2',$data);
+		$this->load->view('inc_fin.php');
+
+	}
 
  
 

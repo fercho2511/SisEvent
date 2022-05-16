@@ -12,6 +12,14 @@ class Cliente extends CI_Controller {
 		$this->load->view('cliente/cliente',$data);
 		$this->load->view('inc_fin.php');
     }
+    public function listaCliente2(){
+        $lista=$this->cliente_model->lista();
+        $data['cliente']=$lista; //otro array asociativo
+		$this->load->view('inc_inicio.php');
+        $this->load->view('inc_menu2.php');
+		$this->load->view('cliente/cliente',$data);
+		$this->load->view('inc_fin.php');
+    }
 
     public function addCliente(){
 

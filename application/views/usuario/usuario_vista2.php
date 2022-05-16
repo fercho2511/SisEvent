@@ -11,7 +11,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
                 </div>
-                <div class="sidebar-brand-text mx-3">Administrador<sup></sup></div>
+                <div class="sidebar-brand-text mx-3">User<sup></sup></div>
             </a>
 
             <!-- Divider -->
@@ -19,12 +19,12 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/test">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/test2">
                     <i class="fas fa-fw fa-bars"></i>
                     <span>Inicio</span></a>
             </li>
 
-          
+
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -35,17 +35,19 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-         
-            <li class="nav-item">
+
+
+            <!-- en sesion user no se puede editar lo q es usuarios -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/listaUsuario">
                 <i class="fas fa-fw fa-user"></i>
-                    <!-- <i class="fa-solid fa-user"></i> -->
+                     <i class="fa-solid fa-user"></i>
                     <span>Usuario</span></a>
-            </li>
+            </li> -->
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url(); ?>index.php/cliente/listaCliente">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/cliente/listaCliente2">
                     <i class="fas fa-fw fa-users"></i>
                     <!-- <i class="fa-solid fa-user"></i> -->
                     <span>Cliente</span></a>
@@ -53,7 +55,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona_pre/zona">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/zona_pre/zona2">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Zona/Precio</span></a>
             </li>
@@ -133,12 +135,12 @@
 
                         <!-- Nav Item - Alerts -->
                         <!-- <li class="nav-item dropdown no-arrow mx-1">
-                           
+
                         </li> -->
 
                         <!-- Nav Item - Messages -->
                         <!-- <li class="nav-item dropdown no-arrow mx-1">
-                           
+
                         </li> -->
 
                         <div class="topbar-divider d-none d-sm-block"></div>
@@ -167,14 +169,14 @@
                                     Actividad
                                 </a>
                                 <div ></div>
-                                    
+
 
                                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Cerrar sesion
                                     </a>
-                                   
-                                
+
+
                             </div>
                         </li>
 
@@ -208,7 +210,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-chair fa-2x text-gray-300"></i>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -223,8 +225,8 @@
                                         <div class="col mr-2">
                                              <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#logoutModal2" title ="Asignar zona y precio">
                                                 <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Zona y Precio</div>                                            
-                                            </a> 
+                                                Zona y Precio</div>
+                                            </a>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
                                         </div>
                                         <div class="col-auto">
@@ -311,12 +313,12 @@
                                 </div>
                                 <!-- Card Body -->
                                 <!-- <div class="img" >
-                                    
-                                    
-                                    
+
+
+
                                     <img src="<?php echo base_url(); ?>starbootstrap/img/mapa.png" alt="" whidth ="10px">
 
-                                    
+
                                 </div> -->
 
 
@@ -329,31 +331,29 @@
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 
-                        
+
 
                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
-                        
-                            <!-- <a xlink:href="" xlink:title="mesa 1" class="dropdown-item" href="#" ddata-toggle="modal" data-target="#exampleModalCenter" > -->
-                            <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#exampleModalCenter" title ="mesa 1">
 
+                            <a xlink:href="" xlink:title="mesa 1" class="dropdown-item" href="#" ddata-toggle="modal" data-target="#exampleModalCenter" >
                             <rect  id="mesa1" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
-                            </a>  
+                            </a>
 
-
+                            exampleModalCenter
                             <!-- data-toggle="modal" data-target="#logoutModal1" onclick="miFunc()-->
                      <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" href="#" >
                      <rect onclick="miFunc(9);"   id="silla1" name="1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                     </a>  
+                     </a>
 
                     <a xlink:href="" xlink:title="Silla 3" class="dropdown-item" href="#" >
                     <rect onclick="miFunc(3);" x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                    </a>  
+                    </a>
 
                      <a xlink:href="" xlink:title="Silla 5" class="dropdown-item" href="#"  >
                         <rect onclick="miFunc(5);" x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
                     </a>
-                        
+
                     <a xlink:href="" xlink:title="Silla 7" class="dropdown-item" href="#" >
                     <rect onclick="miFunc(7);" x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
                     </a>
@@ -380,12 +380,12 @@
 
                     <a xlink:href="" xlink:title="Silla 1" class="dropdown-item" href="#" >
                     <rect onclick="miFunc(1);" x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                    </a>  
+                    </a>
 
 
                     <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
                     <rect  id="mesa 2" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
-                    </a>    
+                    </a>
 
                     <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="512.192" y="65.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.7157 477.9073)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
@@ -564,7 +564,7 @@
                         <rect x="718.147" y="400.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 2.7387 816.8323)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                         <rect x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                         <rect x="757.501" y="496.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -61.1473 897.3779)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                        <polyline fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 778.475,464.494 
+                        <polyline fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 778.475,464.494
                             783.625,455.924 793.91,462.104 "/>
                         <rect x="773.224" y="469.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -30.0658 898.324)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
                         <rect x="764.983" y="483.442" transform="matrix(0.515 -0.8572 0.8572 0.515 -45.881 897.7887)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
@@ -1130,7 +1130,7 @@
                         <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="793.91" y1="291.425" x2="620.625" y2="190.924"/>
                         <text transform="matrix(0.866 0.5 -0.5 0.866 663.8574 166.7285)" font-family="'TimesNewRomanPSMT'" font-size="20">ESCENARIO</text>
                         </svg>
-                        <?php 
+                        <?php
                         $identificador = 5;
                         ?>
 
@@ -1147,37 +1147,37 @@
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Registro</h6>
-                                   
-                                </div>
-                                <!-- Card Body -->                             
-                                
 
-                                <div class="card-body">                                 
+                                </div>
+                                <!-- Card Body -->
+
+
+                                <div class="card-body">
 
                                     <!-- desde aca se pondra la posicion de las sillas -->
 
                                     <div class="form-group row">
                                         <div id="output" class="col-sm-5 mb-3 mb-sm-0">
-                                            <label for="">Silla: 
-                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla" 
+                                            <label for="">Silla:
+                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla"
                                                 placeholder="silla"> </label>
-                                        
+
                                         </div>
                                         <div class="col-sm-8">
-                                        <label for="">Zona: 
+                                        <label for="">Zona:
                                         <select class="form-control" name="zona" >
                                                                     <?php
                                                                         foreach ($arrZona as $i => $zona)
                                                                             echo '<option values="',$i,'">',$zona,'</option>';
                                                                         ?>
                                                                     </select> </label>
-                                    
+
                                     </div>
                                         <div class="col-sm-8">
-                                        <label for="">Precio: 
+                                        <label for="">Precio:
                                             <input type="text" class="form-control form-control-user" id="precio" name="precio"
                                                 placeholder="Bs.-"> </label>
-                                        
+
                                         </div>
                                     <!-- asta esta posicion  -->
                                     <div class="chart-pie pt-4 pb-2">
@@ -1192,7 +1192,7 @@
                                         <input type="text" class="form-control form-control-user" id="apellido" name="apellidos"
                                             placeholder="Apellido">
                                     </div>
-                                    
+
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                             <input type="text" class="form-control form-control-user" id="ci" name="ci"
@@ -1207,12 +1207,12 @@
                                         <input type="email" class="form-control form-control-user" id="correo" name="correo"
                                             placeholder="Correo">
                                     </div>
-                            
-                               
+
+
                                 <hr>
-                                
+
                             </form>
-                                        
+
                                     </div>
                                     <div class="mt-2 text-center small">
                                         <!-- <span class="mr-2">
@@ -1224,7 +1224,7 @@
                                         <span class="mr-2">
                                             <i class="fas fa-circle text-info"></i> Referral
                                         </span> -->
-                                      
+
                                         <button type="submit" class="btn btn-outline-primary" >VENTA</button>
                                         <button type="submit" class="btn btn-outline-primary" >RESERVA</button>
                                     </div>
@@ -1239,11 +1239,11 @@
                         <!-- Content Column -->
                         <div class="col-lg-6 mb-4">
 
-                           
+
 
                         <div class="col-lg-6 mb-4">
 
-                           
+
 
                         </div>
                     </div>
@@ -1257,7 +1257,7 @@
                     let num=p2;
                     // alert(p1 + " "+ p2);
                     // document.getElementByID("sillaEvent").value=p2;
-                    $("#sillaEvent").val(`${num}`)   
+                    $("#sillaEvent").val(`${num}`)
 
 
                 }
@@ -1265,4 +1265,3 @@
            <!-- End of Main Content -->
 
             <!-- Footer -->
-           

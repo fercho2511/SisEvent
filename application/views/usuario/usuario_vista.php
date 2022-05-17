@@ -334,59 +334,29 @@
                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
                         
-                            <!-- <a xlink:href="" xlink:title="mesa 1" class="dropdown-item" href="#" ddata-toggle="modal" data-target="#exampleModalCenter" > -->
-                            <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#exampleModalCenter" title ="mesa 1">
-
-                            <rect  id="mesa1" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
-                            </a>  
-
-
-                            <!-- data-toggle="modal" data-target="#logoutModal1" onclick="miFunc()-->
-                     <a xlink:href="" xlink:title="Silla 9" class="dropdown-item" href="#" >
-                     <rect onclick="miFunc(9);"   id="silla1" name="1" x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                     </a>  
-
-                    <a xlink:href="" xlink:title="Silla 3" class="dropdown-item" href="#" >
-                    <rect onclick="miFunc(3);" x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                    </a>  
-
-                     <a xlink:href="" xlink:title="Silla 5" class="dropdown-item" href="#"  >
-                        <rect onclick="miFunc(5);" x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
+                            <!-- <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#exampleModalCenter" title ="mesa 1"> -->
+                            
+                            
+                            <!-- mesa 1 -->
+                            <a xlink:href="" xlink:title="Mesa 1" class="dropdown-item" href="#" >
+                     <rect  id="mesa1" onclick="miFunc(1)" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
                     </a>
-                        
-                    <a xlink:href="" xlink:title="Silla 7" class="dropdown-item" href="#" >
-                    <rect onclick="miFunc(7);" x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 8" class="dropdown-item" href="#"  >
-                    <rect onclick="miFunc(8);" x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 2" class="dropdown-item" href="#"  >
-                    <rect onclick="miFunc(2);" x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 4" class="dropdown-item" href="#"  >
-                    <rect onclick="miFunc(4);" x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 6" class="dropdown-item" href="#" >
-                    <rect onclick="miFunc(6);" x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 10" class="dropdown-item" href="#" >
-                    <rect onclick="miFunc(10);" x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
-                    </a>
-
-                    <a xlink:href="" xlink:title="Silla 1" class="dropdown-item" href="#" >
-                    <rect onclick="miFunc(1);" x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                    </a>  
-
-
-                    <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
+                    <rect   x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    <rect  x="459.192" y="36.299" transform="matrix(0.515 -0.8572 0.8572 0.515 188.8602 418.4051)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                    <rect  x="451.224" y="48.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.6355 418.0705)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
+                    <rect  x="442.983" y="62.442" transform="matrix(0.515 -0.8572 0.8572 0.515 158.8291 417.6154)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
+                    <rect  x="399.072" y="54.339" transform="matrix(0.515 -0.8572 0.8572 0.515 144.6951 375.3997)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
+                    <rect  x="422.764" y="14.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 189.9377 376.5524)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
+                    <rect  x="414.794" y="27.34" transform="matrix(0.515 -0.8572 0.8572 0.515 175.6765 376.1869)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
+                    <rect  x="406.554" y="41.052" transform="matrix(0.515 -0.8572 0.8572 0.515 159.9579 375.7992)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
+                    <rect  x="408.489" y="77.498" transform="matrix(0.5151 -0.8572 0.8572 0.5151 129.3773 394.6737)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="10.998"/>
+                    <rect  x="448.147" y="11.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.2334 396.6935)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                     <rect  id="mesa 2" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                    <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
+                        <!-- mesa 2 -->
+                    <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
+                    <rect  id="mesa 2" onclick="miFunc(2)" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                     </a>    
-
                     <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="512.192" y="65.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.7157 477.9073)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="504.224" y="77.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 175.4849 477.5719)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -397,7 +367,10 @@
                         <rect x="459.554" y="70.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 160.8142 435.3046)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="461.489" y="106.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 130.2044 454.1496)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="501.147" y="40.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 206.0822 456.193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="515.061" y="102.926" transform="matrix(0.515 -0.8572 0.8572 0.515 166.9929 520.0132)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 3 -->
+                        <a xlink:href="" xlink:title="Mesa 3" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(3)" x="515.061" y="102.926" transform="matrix(0.515 -0.8572 0.8572 0.515 166.9929 520.0132)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="545.501" y="137.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 143.7638 541.5657)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="569.192" y="98.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.0729 542.7714)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="561.224" y="110.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 174.8458 542.4426)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -408,7 +381,10 @@
                         <rect x="516.554" y="103.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 160.1742 500.1735)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="518.489" y="139.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 129.5584 519.0078)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="558.147" y="73.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.4421 521.0618)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="572.061" y="134.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.2061 584.39)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 4 -->
+                        <a xlink:href="" xlink:title="Mesa 4" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(4)" x="572.061" y="134.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.2061 584.39)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="602.501" y="169.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 143.9766 605.9419)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="626.192" y="130.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.2874 607.1504)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="618.224" y="142.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 175.064 606.8281)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -419,7 +395,10 @@
                         <rect x="573.554" y="135.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 160.3914 564.5574)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="575.489" y="171.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 129.7696 583.3811)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="615.147" y="105.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 205.6592 585.4456)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="407.061" y="152.926" transform="matrix(0.515 -0.8572 0.8572 0.515 71.7596 451.6873)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 5 -->
+                        <a xlink:href="" xlink:title="Mesa 5" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(5)"x="407.061" y="152.926" transform="matrix(0.515 -0.8572 0.8572 0.515 71.7596 451.6873)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="437.501" y="187.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 48.532 473.24)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="461.192" y="148.299" transform="matrix(0.515 -0.8572 0.8572 0.515 93.8351 474.445)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="453.224" y="160.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 79.5944 474.1147)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -430,7 +409,10 @@
                         <rect x="408.554" y="153.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 64.9264 431.8461)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="410.489" y="189.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 34.3326 450.6827)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="450.147" y="123.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 110.1944 452.7344)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="459.061" y="184.926" transform="matrix(0.515 -0.8572 0.8572 0.515 69.548 511.7784)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 6 -->
+                        <a xlink:href="" xlink:title="Mesa 6" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(6)" x="459.061" y="184.926" transform="matrix(0.515 -0.8572 0.8572 0.515 69.548 511.7784)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="489.501" y="219.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 46.3201 533.3304)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="513.192" y="180.299" transform="matrix(0.515 -0.8572 0.8572 0.515 91.6246 534.5381)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="505.224" y="192.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 77.3871 534.2141)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -441,7 +423,10 @@
                         <rect x="460.554" y="185.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 62.7183 491.9438)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="462.489" y="221.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 32.1192 510.7704)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="502.147" y="155.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 107.9863 512.832)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="511.061" y="216.926" transform="matrix(0.515 -0.8572 0.8572 0.515 67.3365 571.8694)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 7 -->
+                        <a xlink:href="" xlink:title="Mesa 7" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(7)"x="511.061" y="216.926" transform="matrix(0.515 -0.8572 0.8572 0.515 67.3365 571.8694)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="541.501" y="251.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 44.1082 593.4208)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="565.192" y="212.299" transform="matrix(0.515 -0.8572 0.8572 0.515 89.4142 594.6312)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="557.224" y="224.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 75.1798 594.3135)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -452,7 +437,10 @@
                         <rect x="512.554" y="217.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 60.5102 552.0415)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="514.489" y="253.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 29.9059 570.858)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="554.147" y="187.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 105.7781 572.9297)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="567.061" y="248.926" transform="matrix(0.515 -0.8572 0.8572 0.515 67.0648 635.3892)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 8 -->
+                        <a xlink:href="" xlink:title="Mesa 8" class="dropdown-item" href="#" >
+                        <rect  onclick="miFunc(8)" x="567.061" y="248.926" transform="matrix(0.515 -0.8572 0.8572 0.515 67.0648 635.3892)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="597.501" y="283.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 43.836 656.9398)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="621.192" y="244.299" transform="matrix(0.515 -0.8572 0.8572 0.515 89.1436 658.153)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="613.224" y="256.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 74.913 657.8418)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -463,7 +451,10 @@
                         <rect x="568.554" y="249.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 60.2423 615.5681)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="570.489" y="285.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 29.6322 634.3741)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="610.147" y="219.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 105.5102 636.4562)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="621.061" y="281.926" transform="matrix(0.515 -0.8572 0.8572 0.515 64.9659 697.6795)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 9 -->
+                        <a xlink:href="" xlink:title="Mesa 9" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(9)"x="621.061" y="281.926" transform="matrix(0.515 -0.8572 0.8572 0.515 64.9659 697.6795)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="651.501" y="316.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 41.7368 719.2294)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="675.192" y="277.299" transform="matrix(0.515 -0.8572 0.8572 0.515 87.0459 720.4454)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="667.224" y="289.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 72.8186 720.1407)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -474,7 +465,10 @@
                         <rect x="622.554" y="282.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 58.1471 677.8654)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="624.489" y="318.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 27.5316 696.661)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="664.147" y="252.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 103.4149 698.7533)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="673.061" y="314.926" transform="matrix(0.515 -0.8572 0.8572 0.515 61.8972 758.2555)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 10 -->
+                        <a xlink:href="" xlink:title="Mesa 10" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(10)"x="673.061" y="314.926" transform="matrix(0.515 -0.8572 0.8572 0.515 61.8972 758.2555)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="703.501" y="349.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 38.6678 779.8047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="727.192" y="310.299" transform="matrix(0.515 -0.8572 0.8572 0.515 83.9782 781.0236)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="719.224" y="322.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 69.7542 780.7252)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -485,7 +479,10 @@
                         <rect x="674.554" y="315.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 55.0818 738.4481)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="676.489" y="351.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 24.4611 757.2335)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="716.147" y="285.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 100.3495 759.3361)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="726.061" y="346.926" transform="matrix(0.515 -0.8572 0.8572 0.515 60.1707 819.2037)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 11 -->
+                        <a xlink:href="" xlink:title="Mesa 11" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(11)"x="726.061" y="346.926" transform="matrix(0.515 -0.8572 0.8572 0.515 60.1707 819.2037)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="756.501" y="381.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 36.9408 840.7522)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="780.192" y="342.299" transform="matrix(0.515 -0.8572 0.8572 0.515 82.2527 841.9738)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="772.224" y="354.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 68.032 841.6818)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -496,7 +493,10 @@
                         <rect x="727.554" y="347.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 53.3587 799.4031)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="729.489" y="383.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 22.7327 818.1783)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="769.147" y="317.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 98.6265 820.2909)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="409.061" y="267.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -25.8443 509.1715)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 12 -->
+                        <a xlink:href="" xlink:title="Mesa 12" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(12)"x="409.061" y="267.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -25.8443 509.1715)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="439.501" y="302.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -49.0712 530.7229)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="463.192" y="263.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -3.7709 531.9329)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="455.224" y="275.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -18.0183 531.6142)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -507,7 +507,10 @@
                         <rect x="410.554" y="268.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -32.6846 489.3425)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="412.489" y="304.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -63.2677 508.1606)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="452.147" y="238.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 12.5836 510.2307)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="461.061" y="299.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -28.0558 569.2626)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 13 -->
+                        <a xlink:href="" xlink:title="Mesa 13" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(13)"x="461.061" y="299.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -28.0558 569.2626)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="491.501" y="334.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -51.2831 590.8133)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="515.192" y="295.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -5.9814 592.026)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="507.224" y="307.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -20.2256 591.7136)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -518,7 +521,10 @@
                         <rect x="462.554" y="300.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -34.8927 549.4402)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="464.489" y="336.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -65.481 568.2483)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="504.147" y="270.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 10.3754 570.3282)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="513.061" y="331.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -30.2674 629.3536)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 14-->
+                        <a xlink:href="" xlink:title="Mesa 14" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(14)"x="513.061" y="331.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -30.2674 629.3536)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="543.501" y="366.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -53.495 650.9037)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="567.192" y="327.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -8.1919 652.1191)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="559.224" y="339.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -22.4329 651.8129)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -529,7 +535,10 @@
                         <rect x="514.554" y="332.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -37.1008 609.5379)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="516.489" y="368.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -67.6943 628.3359)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="556.147" y="302.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 8.1672 630.4259)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="569.061" y="363.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -30.5391 692.8734)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 15 -->
+                        <a xlink:href="" xlink:title="Mesa 15" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(15)"x="569.061" y="363.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -30.5391 692.8734)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="599.501" y="398.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -53.7671 714.4227)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="623.192" y="359.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -8.4624 715.6409)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="615.224" y="371.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -22.6998 715.3412)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -540,7 +549,10 @@
                         <rect x="570.554" y="364.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -37.3687 673.0645)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="572.489" y="400.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -67.968 691.8521)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="612.147" y="334.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 7.8994 693.9525)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="623.061" y="396.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -32.6379 755.1637)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 16 -->
+                        <a xlink:href="" xlink:title="Mesa 16" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(16)"x="623.061" y="396.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -32.6379 755.1637)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="653.501" y="431.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -55.8663 776.7123)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="677.192" y="392.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -10.5601 777.9333)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="669.224" y="404.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -24.7941 777.6401)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -551,7 +563,10 @@
                         <rect x="624.554" y="397.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -39.4639 735.3618)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="626.489" y="433.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -70.0687 754.1389)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="666.147" y="367.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 5.8041 756.2496)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="675.061" y="429.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -35.7067 815.7397)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 17 -->
+                        <a xlink:href="" xlink:title="Mesa 17" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(17)" x="675.061" y="429.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -35.7067 815.7397)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="705.501" y="464.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -58.9354 837.2876)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="729.192" y="425.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -13.6278 838.5115)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="721.224" y="437.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -27.8586 838.2246)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -562,7 +577,10 @@
                         <rect x="676.554" y="430.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -42.5292 795.9445)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="678.489" y="466.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -73.1392 814.7114)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="718.147" y="400.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 2.7387 816.8323)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 18 -->
+                        <a xlink:href="" xlink:title="Mesa 18" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(18)"x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="757.501" y="496.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -61.1473 897.3779)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <polyline fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 778.475,464.494 
                             783.625,455.924 793.91,462.104 "/>
@@ -575,7 +593,10 @@
                         <rect x="730.489" y="498.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -75.3525 874.7991)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="770.147" y="432.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 0.5306 876.9299)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                         <rect x="277.5" y="20.5" fill="#FFFFFF" stroke="#FF2462" stroke-miterlimit="10" width="56" height="19"/>
+                        <!-- mesa 19 -->
+                        <a xlink:href="" xlink:title="Mesa 19" class="dropdown-item" href="#" >
                         <rect x="277.5" y="46.5" fill="#FFFFFF" stroke="#FF2462" stroke-miterlimit="10" width="10" height="12"/>
+                        </a>
                         <rect x="323.5" y="46.5" fill="#FFFFFF" stroke="#FF2462" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="308.5" y="46.5" fill="#FFFFFF" stroke="#FF2462" stroke-miterlimit="10" width="11" height="12"/>
                         <rect x="292.5" y="46.5" fill="#FFFFFF" stroke="#FF2462" stroke-miterlimit="10" width="11" height="12"/>
@@ -834,7 +855,10 @@
                         <rect x="130.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="130.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="130.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                        <rect x="570.061" y="483.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.9138 751.9252)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 21 -->
+                        <a xlink:href="" xlink:title="Mesa 21" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(21)" x="570.061" y="483.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.9138 751.9252)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="600.501" y="518.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -156.141 773.4731)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="624.192" y="479.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -110.8394 774.6966)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="616.224" y="491.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -125.0837 774.4089)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -845,7 +869,10 @@
                         <rect x="571.554" y="484.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -139.7507 732.129)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="573.489" y="520.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -170.3388 750.8973)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="613.147" y="454.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -94.4827 753.0167)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="623.061" y="515.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -134.6404 812.8734)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 22 -->
+                        <a xlink:href="" xlink:title="Mesa 22" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(22)" x="623.061" y="515.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -134.6404 812.8734)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="653.501" y="550.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -157.8679 834.4207)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="677.192" y="511.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -112.5649 835.6469)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="669.224" y="523.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -126.8058 835.3655)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -856,7 +883,10 @@
                         <rect x="624.554" y="516.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -141.4738 793.0839)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="626.489" y="552.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -172.0673 811.8421)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="666.147" y="486.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -96.2057 813.9716)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="461.061" y="419.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -130.9155 627.4572)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa  19 -->
+                        <a xlink:href="" xlink:title="Mesa 19" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(19)"x="461.061" y="419.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -130.9155 627.4572)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="491.501" y="454.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -154.1418 649.0066)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="515.192" y="415.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -108.8433 650.2245)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="507.224" y="427.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -123.0947 649.924)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -867,7 +897,10 @@
                         <rect x="462.554" y="420.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -137.7598 607.6475)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="464.489" y="456.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -168.3367 626.4364)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="504.147" y="390.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -92.4917 628.5354)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="514.061" y="451.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.6421 688.4055)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 20 -->
+                        <a xlink:href="" xlink:title="Mesa 20" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(20)"x="514.061" y="451.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.6421 688.4055)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="544.501" y="486.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -155.8688 709.9541)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="568.192" y="447.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -110.5688 711.1748)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="560.224" y="459.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -124.8168 710.8806)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -878,7 +911,10 @@
                         <rect x="515.554" y="452.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -139.4829 668.6024)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="517.489" y="488.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -170.0651 687.3812)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="557.147" y="422.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -94.2148 689.4902)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="518.061" y="570.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -232.7047 749.5438)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 24 -->
+                        <a xlink:href="" xlink:title="Mesa 24" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(24)" x="518.061" y="570.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -232.7047 749.5438)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="548.501" y="605.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -255.9307 771.0911)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="572.192" y="566.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -210.6336 772.317)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="564.224" y="578.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -224.8883 772.0348)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -889,7 +925,10 @@
                         <rect x="519.554" y="571.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -239.5526 729.7535)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="521.489" y="607.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -270.1241 748.5129)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="561.147" y="541.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -194.2844 750.6412)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="571.061" y="602.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -234.4313 810.4921)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 25 -->
+                        <a xlink:href="" xlink:title="Mesa 25" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(25)"x="571.061" y="602.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -234.4313 810.4921)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="601.501" y="637.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -257.6577 832.0386)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="625.192" y="598.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -212.3591 833.2673)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="617.224" y="610.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -226.6104 832.9914)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -900,7 +939,10 @@
                         <rect x="572.554" y="603.052" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -241.2756 790.7084)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="11"/>
                         <rect x="574.489" y="639.499" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -271.8525 809.4577)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                         <rect x="614.147" y="573.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -196.0075 811.596)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
-                        <rect x="464.061" y="539.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -232.3203 688.2234)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        <!-- mesa 23 -->
+                        <a xlink:href="" xlink:title="Mesa 23" class="dropdown-item" href="#" >
+                        <rect onclick="miFunc(23)"x="464.061" y="539.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -232.3203 688.2234)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                        </a>
                         <rect x="494.501" y="574.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -255.5458 709.7714)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="518.192" y="535.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -210.2502 710.9945)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="510.224" y="547.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -224.5084 710.7061)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -1158,24 +1200,42 @@
 
                                     <div class="form-group row">
                                         <div id="output" class="col-sm-5 mb-3 mb-sm-0">
-                                            <label for="">Silla: 
-                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla" 
-                                                placeholder="silla"> </label>
+                                            <label for="">Mesa: 
+                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla" readonly
+                                                placeholder="Mesa"> </label>
                                         
                                         </div>
-                                        <div class="col-sm-8">
-                                        <label for="">Zona: 
-                                        <select class="form-control" name="zona" >
+                                        <!-- <div class="col-sm-8">
+                                            <label for="">Zona: 
+                                            <select class="form-control" name="zona" >
                                                                     <?php
                                                                         foreach ($arrZona as $i => $zona)
                                                                             echo '<option values="',$i,'">',$zona,'</option>';
                                                                         ?>
                                                                     </select> </label>
                                     
-                                    </div>
-                                        <div class="col-sm-8">
-                                        <label for="">Precio: 
-                                            <input type="text" class="form-control form-control-user" id="precio" name="precio"
+                                         </div> -->
+                                       
+                                        <div class="form-group row">
+                                            
+                                            <div class="col-sm-6">
+                                                <label for="">Sillas: </label>
+
+                                                    <select class="form-control" name="cnatidad" id="cantidad" >
+                                                    </select>
+                                               
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="">Precio: </label>
+
+                                                    <input type="number" readonly class="form-control form-control-user" id="telefono" name="telefono"
+                                                        placeholder="Bs.-">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                        <label for="">Precio Total: 
+                                            <input type="text" class="form-control form-control-user" id="precio" name="precioTotal" readonly 
                                                 placeholder="Bs.-"> </label>
                                         
                                         </div>
@@ -1207,12 +1267,18 @@
                                         <input type="email" class="form-control form-control-user" id="correo" name="correo"
                                             placeholder="Correo">
                                     </div>
+                                    
+                                   
                             
                                
                                 <hr>
                                 
                             </form>
                                         
+                                    </div>
+                                    <div class="form-group">
+                                            <label  for="">Fecha y hora:</label> <br>
+                                            <input type="date" class="form-control" name="" id="" value="">
                                     </div>
                                     <div class="mt-2 text-center small">
                                         <!-- <span class="mr-2">
@@ -1234,9 +1300,8 @@
                     </div>
 
                     <!-- Content Row -->
-                    <div class="row">
+                    <!-- <div class="row">
 
-                        <!-- Content Column -->
                         <div class="col-lg-6 mb-4">
 
                            
@@ -1246,7 +1311,7 @@
                            
 
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
                 <!-- /.container-fluid -->

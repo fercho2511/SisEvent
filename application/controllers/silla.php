@@ -12,6 +12,7 @@ class Silla extends CI_Controller {
 		$correo = $this->input->post("correo");
 		$telefono = $this->input->post("telefono");
         $numSilla = $this->input->post("numSilla");
+        $mes= $this->input->post("mesa");
 		$zona = $this->input->post("zona");
 
         $idUsuario=$this->session->userdata('idusuario');

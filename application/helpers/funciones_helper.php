@@ -36,6 +36,10 @@ function estado($nota)
     }
 }
 
+function fechaActual(){
+    date_default_timezone_set("America/Caracas");
+}
+
 //ACA SE PUEDE CODIFICAR FUNCIONALIDADES Q HAYUDARAN A TODO EL SISTEMA 
 
 function listarProfe($profe) {

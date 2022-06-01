@@ -1,5 +1,7 @@
 
-
+<?php
+date_default_timezone_set("America/La_Paz");
+?>
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -24,7 +26,7 @@
                     <span>Inicio</span></a>
             </li>
 
-          
+
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -35,7 +37,7 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-         
+
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>index.php/usuario_per/listaUsuario">
                 <i class="fas fa-fw fa-user"></i>
@@ -133,12 +135,12 @@
 
                         <!-- Nav Item - Alerts -->
                         <!-- <li class="nav-item dropdown no-arrow mx-1">
-                           
+
                         </li> -->
 
                         <!-- Nav Item - Messages -->
                         <!-- <li class="nav-item dropdown no-arrow mx-1">
-                           
+
                         </li> -->
 
                         <div class="topbar-divider d-none d-sm-block"></div>
@@ -167,14 +169,14 @@
                                     Actividad
                                 </a>
                                 <div ></div>
-                                    
+
 
                                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Cerrar sesion
                                     </a>
-                                   
-                                
+
+
                             </div>
                         </li>
 
@@ -208,7 +210,7 @@
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-chair fa-2x text-gray-300"></i>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -223,8 +225,8 @@
                                         <div class="col mr-2">
                                              <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#logoutModal2" title ="Asignar zona y precio">
                                                 <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Zona y Precio</div>                                            
-                                            </a> 
+                                                Zona y Precio</div>
+                                            </a>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
                                         </div>
                                         <div class="col-auto">
@@ -311,12 +313,12 @@
                                 </div>
                                 <!-- Card Body -->
                                 <!-- <div class="img" >
-                                    
-                                    
-                                    
+
+
+
                                     <img src="<?php echo base_url(); ?>starbootstrap/img/mapa.png" alt="" whidth ="10px">
 
-                                    
+
                                 </div> -->
 
 
@@ -329,16 +331,16 @@
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 
-                        
+
 
                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
-                        
+
                             <!-- <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#exampleModalCenter" title ="mesa 1"> -->
-                            
-                            
+
+
                             <!-- mesa 1 -->
-                            <a xlink:href="" xlink:title="Mesa 1" class="dropdown-item" href="#" >
+                    <a xlink:href="" xlink:title="Mesa 1" class="dropdown-item" href="#" >
                      <rect  id="mesa1" onclick="miFunc(1)" name="mesa 1" x="405.061" y="40.925" transform="matrix(0.515 -0.8572 0.8572 0.515 166.7904 395.6567)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.998" height="19.001"/>
                     </a>
                     <rect   x="435.5" y="75.729" transform="matrix(0.515 -0.8572 0.8572 0.515 143.5723 417.2193)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
@@ -356,7 +358,7 @@
                         <!-- mesa 2 -->
                     <a xlink:href="" xlink:title="Mesa 2" class="dropdown-item" href="#" >
                     <rect  id="mesa 2" onclick="miFunc(2)" x="458.061" y="69.926" transform="matrix(0.515 -0.8572 0.8572 0.515 167.6368 455.1513)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
-                    </a>    
+                    </a>
                     <rect x="488.501" y="104.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 144.4081 476.7047)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
                         <rect x="512.192" y="65.299" transform="matrix(0.515 -0.8572 0.8572 0.515 189.7157 477.9073)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
                         <rect x="504.224" y="77.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 175.4849 477.5719)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -582,7 +584,7 @@
                         <rect onclick="miFunc(18)"x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                         </a>
                         <rect x="757.501" y="496.729" transform="matrix(0.5151 -0.8572 0.8572 0.5151 -61.1473 897.3779)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="12"/>
-                        <polyline fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 778.475,464.494 
+                        <polyline fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 778.475,464.494
                             783.625,455.924 793.91,462.104 "/>
                         <rect x="773.224" y="469.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -30.0658 898.324)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
                         <rect x="764.983" y="483.442" transform="matrix(0.515 -0.8572 0.8572 0.515 -45.881 897.7887)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="12"/>
@@ -1172,7 +1174,7 @@
                         <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="793.91" y1="291.425" x2="620.625" y2="190.924"/>
                         <text transform="matrix(0.866 0.5 -0.5 0.866 663.8574 166.7285)" font-family="'TimesNewRomanPSMT'" font-size="20">ESCENARIO</text>
                         </svg>
-                        <?php 
+                        <?php
                         $identificador = 5;
                         ?>
 
@@ -1189,77 +1191,64 @@
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Registro</h6>
-                                   
-                                </div>
-                                <!-- Card Body -->                             
-                                
 
-                                <div class="card-body">                                 
+                                </div>
+                                <!-- Card Body -->
+
+
+                                <div class="card-body">
 
                                     <!-- desde aca se pondra la posicion de las sillas -->
 
                                     <div class="form-group row">
                                         <div id="output" class="col-sm-5 mb-3 mb-sm-0">
-                                            <label for="">Mesa: 
-                                            <input type="text" class="form-control form-control-user" id="sillaEvent" name="numSilla" readonly
+                                            <label for="">Mesa:
+                                            <input type="text" value ="" class="form-control form-control-user" id="numSilla" name="numSilla" require
                                                 placeholder="Mesa"> </label>
-                                        
-                                        </div>
-                                        <!-- <div class="col-sm-8">
-                                            <label for="">Zona: 
-                                            <select class="form-control" name="zona" >
-                                                                    <?php
-                                                                        foreach ($arrZona as $i => $zona)
-                                                                            echo '<option values="',$i,'">',$zona,'</option>';
-                                                                        ?>
-                                                                    </select> </label>
-                                    
-                                         </div> -->
-                                       
-                                        <div class="form-group row">
-                                            
-                                            <div class="col-sm-6">
-                                                <label for="">Sillas: </label>
 
-                                                    <select class="form-control" name="cnatidad" id="cantidad" >
-                                                    </select>
-                                               
+                                        </div>
+
+
+                                        <div class="form-group row" id="datos">
+
+                                            <div class="col-sm-6" id="select2lista">
+                                            <select name="nomCond" id="nomCond"></select>
                                             </div>
                                             <div class="col-sm-6">
                                                 <label for="">Precio: </label>
 
-                                                    <input type="number" readonly class="form-control form-control-user" id="telefono" name="telefono"
+                                                    <input type="number" readonly class="form-control form-control-user" id="telefono" name="telefono" require 
                                                         placeholder="Bs.-">
                                             </div>
                                         </div>
 
                                         <div class="col-sm-12">
-                                        <label for="">Precio Total: 
-                                            <input type="text" class="form-control form-control-user" id="precio" name="precioTotal" readonly 
+                                        <label for="">Precio Total:
+                                            <input type="text" class="form-control form-control-user" id="precio" name="precioTotal" readonly require
                                                 placeholder="Bs.-"> </label>
-                                        
+
                                         </div>
                                     <!-- asta esta posicion  -->
                                     <div class="chart-pie pt-4 pb-2">
                                     <label for="">Datos del Cliente:</label>
 
                                         <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" id="nombred" name="nombres"
+                                    <input type="text" class="form-control form-control-user" id="nombres" name="nombres" require
                                         placeholder="Nombre">
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control form-control-user" id="apellido" name="apellidos"
+                                        <input type="text" class="form-control form-control-user" id="apellido" name="apellidos" require
                                             placeholder="Apellido">
                                     </div>
-                                    
+
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
-                                            <input type="text" class="form-control form-control-user" id="ci" name="ci"
+                                            <input type="text" class="form-control form-control-user" id="ci" name="ci" require
                                                 placeholder="C.I.">
                                         </div>
                                         <div class="col-sm-6">
-                                            <input type="number" class="form-control form-control-user" id="telefono" name="telefono"
+                                            <input type="number" class="form-control form-control-user" id="telefono" name="telefono" require
                                                 placeholder="Telefono">
                                         </div>
                                     </div>
@@ -1267,18 +1256,19 @@
                                         <input type="email" class="form-control form-control-user" id="correo" name="correo"
                                             placeholder="Correo">
                                     </div>
-                                    
-                                   
-                            
-                               
+
+
+
+
                                 <hr>
-                                
+
                             </form>
-                                        
+
                                     </div>
-                                    <div class="form-group">
-                                            <label  for="">Fecha y hora:</label> <br>
-                                            <input type="date" class="form-control" name="" id="" value="">
+                                    <div class="form-group" aling="center">
+                                            <?php
+                                            echo date("Y-m-d H:i:s");
+                                            ?>
                                     </div>
                                     <div class="mt-2 text-center small">
                                         <!-- <span class="mr-2">
@@ -1290,7 +1280,7 @@
                                         <span class="mr-2">
                                             <i class="fas fa-circle text-info"></i> Referral
                                         </span> -->
-                                      
+
                                         <button type="submit" class="btn btn-outline-primary" >VENTA</button>
                                         <button type="submit" class="btn btn-outline-primary" >RESERVA</button>
                                     </div>
@@ -1304,11 +1294,11 @@
 
                         <div class="col-lg-6 mb-4">
 
-                           
+
 
                         <div class="col-lg-6 mb-4">
 
-                           
+
 
                         </div>
                     </div> -->
@@ -1317,17 +1307,38 @@
                 <!-- /.container-fluid -->
 
             </div>
-            <script>
+            <!-- <script>
                 function miFunc(p2) {
                     let num=p2;
                     // alert(p1 + " "+ p2);
                     // document.getElementByID("sillaEvent").value=p2;
-                    $("#sillaEvent").val(`${num}`)   
+                    var cant = $("#numSilla").val(`${num}`)
+
+                    
 
 
-                }
-                </script>
+                }              
+
+
+            </script> -->
+            <!-- <script>
+                 $("#numSilla").change(function(){
+                    var movInt = $('#numSilla').val()
+                    $.ajax({
+                        // url:'http://localhost:9090/CodeIgniter/sistema1/index.php/usuario_per/mostrar',
+                        url:'<?php echo base_url(); ?>index.php/usuario_per/test5',
+
+                        // 
+                        method:'get',
+                        data: {movInt : movInt},
+                        dataType:'html',
+                        success:function(data){                   
+                            $("#cantidad").append(data);
+                        }
+                    });
+                });
+            </script> -->
            <!-- End of Main Content -->
 
-            <!-- Footer -->
            
+            <!-- Footer -->

@@ -307,6 +307,15 @@
     <script src="<?php echo base_url(); ?>starbootstrap/js/demo/chart-pie-demo.js"></script>
     <script src="<?php echo base_url(); ?>starbootstrap/js/validar/formulario_usuario.js"></script>
 
+    <!-- este escrip es para capturar el valor y mostrar en un modal -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- asta aca -->
+
+        <!-- scrip para enviar la posicion de la mesa a la ventaana -->
+    <script src="<?php echo base_url(); ?>starbootstrap/js/consulta_sillas.js"></script>
+    <!-- <script src="<?php echo base_url();?>starbootstrap/js/sillas.js"></script> -->
+    
+
 </body>
 
 </html>

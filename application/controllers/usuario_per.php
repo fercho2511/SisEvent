@@ -16,11 +16,17 @@ class Usuario_per extends CI_Controller {
 	}
     public function test()
 	{
-     
+        //  $id = $this->input->get("mesa");
+        // if ($id >=1) {
+        //     $data['arrSilla'] = $this->silla_model->get_cantidad($id); 
+        //     alert("llego el dato") ;      
+        // }
         $lista=$this->usuarioper_model->lista();
         $data['usuario']=$lista; 
 
-        $data['arrZona'] = $this->zona_model->get_zona();        
+        $data['arrZona'] = $this->zona_model->get_zona();   
+        // $data['arrSilla'] = $this->silla_model->get_cantidad(); 
+
 
 		$this->load->view('inc_inicio.php');
         // $this->load->view('inc_menu2.php');
@@ -28,6 +34,73 @@ class Usuario_per extends CI_Controller {
 		$this->load->view('inc_fin.php');
 
 	}
+    // public function test5( )
+	// {
+    //     $mesa=$_POST['continente'];
+    //     // $num = $_GET['mesa'];   
+    //     $this->silla_model->get_cantidad($mesa); 
+    //     // $data['precio']= $this->silla_model->get_precio($continente);
+
+
+		
+
+	// }
+
+
+    //aca para verificar lso datos
+
+    //crear funcion par amostrar
+    function mostrar(){
+        $movInt = $_POST['movInt'];
+        alert($movInt);
+        $sql="SELECT id,silla FROM mapa where estado = 1  and mesa ='$movInt'"; 
+        $result=$mysqli->query($sql);
+        $options="";
+        while ($row=$result->fetch_array(MYSQLI_ASSOC)) { 
+            $options.="<option value=\"$row[nombre]\">$row[id] $row[silla]</option>"; 
+
+        }
+        echo $options;
+
+        // if ($this->input->is_ajax_request()) {
+        //     // $buscar = $this->input->post("buscar");
+        //     $data['arrSilla'] = $this->silla_model->get_cantidad($movInt); 
+        //     echo json_encode($data);
+        //     # code...
+        // }
+        // else {
+        //     show_404();
+        // }
+
+    }
+  
+
+    public function test3()
+	{
+
+        $id = $this->input->post("mesa");
+
+        if($id) {
+
+            $lista=$this->usuarioper_model->lista();
+            $data['usuario']=$lista; 
+    
+            // $data['arrZona'] = $this->zona_model->get_zona();   
+            $data['arrSilla'] = $this->silla_model->get_cantidad2($id); 
+            $data['prec']= $this->silla_model->get_precio($id) ;     
+         
+    
+            $this->load->view('inc_inicio.php');
+            // $this->load->view('inc_menu2.php');
+            $this->load->view('usuario/usuario_vista',$data);
+            $this->load->view('inc_fin.php');
+        }
+     
+      
+
+	}
+
+
     public function test2()
 	{
      

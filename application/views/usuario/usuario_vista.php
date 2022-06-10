@@ -1208,12 +1208,15 @@ date_default_timezone_set("America/La_Paz");
 
                                         </div>
 
+                                        <div class="form-group">
+                                                <select class="form-control" name="jcity" id="jcity" class="form-control input-lg">
+                                                    <option value="">Seleccionar cantidad</option>
+                                                    
+                                                </select>
+                                        </div>
 
-                                        <div class="form-group row" id="datos">
 
-                                            <div class="col-sm-6" id="select2lista">
-                                            <select name="nomCond" id="nomCond"></select>
-                                            </div>
+
                                             <div class="col-sm-6">
                                                 <label for="">Precio: </label>
 
@@ -1307,27 +1310,70 @@ date_default_timezone_set("America/La_Paz");
                 <!-- /.container-fluid -->
 
             </div>
-            <!-- <script>
+            <script>
+
                 function miFunc(p2) {
                     let num=p2;
-                    // alert(p1 + " "+ p2);
+                     //alert( p2);
                     // document.getElementByID("sillaEvent").value=p2;
                     var cant = $("#numSilla").val(`${num}`)
 
+                     numero = document.getElementById("numSilla").value; 
+                        llamado(numero);
+                }      
+                
+                
+                function llamado(numero) {
+
+                   
+                        alert("Escogio al mesa " +" "+ numero);
+                                var cantidad = numero;
+                                if (cantidad != '') {
+                                    $.ajax({
+                                    
+                                    url: "/index.php/cantidad_silla/get_mesa",
+                                    type: "POST",
+                                    data: {mesa: cantidad},
+                                     //dataType: "ajax",
+                                    success: function (respuesta) {
+                                       // $("#jcity").html(data);
+                                    alert(respuesta);
+                                    }
+                                })
+                                }
+                               
                     
+                   
 
 
-                }              
 
+                                // $.post("<?php echo base_url() ?>index.php/cantidad_silla/get_mesa", {
+                                //     id_country: id_country
+                                // }, function (data) {
+                                //     $("#jcity").html(data);
+                                //     console.log(id_country);
+                                // });
+                            
+                        
+                    
+                    // var sql ="SELECT id,silla FROM mapa where estado = 1 and mesa = '$mesa'";
+                    // console.log(sql);
 
-            </script> -->
-            <!-- <script>
+                    
+                }            
+               
+                   
+
+               
+
+            </script> 
+            
+             <!-- <script>
                  $("#numSilla").change(function(){
                     var movInt = $('#numSilla').val()
                     $.ajax({
                         // url:'http://localhost:9090/CodeIgniter/sistema1/index.php/usuario_per/mostrar',
-                        url:'<?php echo base_url(); ?>index.php/usuario_per/test5',
-
+                        url:'datos.php',
                         // 
                         method:'get',
                         data: {movInt : movInt},
@@ -1337,7 +1383,7 @@ date_default_timezone_set("America/La_Paz");
                         }
                     });
                 });
-            </script> -->
+            </script>  -->
            <!-- End of Main Content -->
 
            

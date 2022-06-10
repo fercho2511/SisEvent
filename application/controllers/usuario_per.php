@@ -34,17 +34,28 @@ class Usuario_per extends CI_Controller {
 		$this->load->view('inc_fin.php');
 
 	}
-    // public function test5( )
-	// {
-    //     $mesa=$_POST['continente'];
-    //     // $num = $_GET['mesa'];   
-    //     $this->silla_model->get_cantidad($mesa); 
-    //     // $data['precio']= $this->silla_model->get_precio($continente);
+    public function test5( )
+	{
+        // $mesa=$_POST['numero'];
+        // // $num = $_GET['mesa'];   
+        // $this->silla_model->get_cantidad($mesa); 
+        // // $data['precio']= $this->silla_model->get_precio($continente);
+
+        $this->silla_model->get_cantidad2(); 
+
+        //  if ($this->input->is_ajax_request()) {
+        //       $buscar = $this->input->post("numero");
+        //      $datos= $this->silla_model->get_cantidad($buscar); 
+        //      echo json_encode($datos);
+        //      # code...
+        //  }
+        //  else {
+        //      show_404();
+        //  }
 
 
-		
 
-	// }
+	}
 
 
     //aca para verificar lso datos

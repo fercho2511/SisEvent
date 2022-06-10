@@ -12,6 +12,8 @@ class Cliente_model extends CI_Model {
                 $this->db->select('*');
                 $this->db->from('cliente');
                 $this->db->where('estado','1');
+                $this->db->ORDER_BY('nombres');
+
                 return $this->db->get();
 
             
@@ -97,7 +99,7 @@ class Cliente_model extends CI_Model {
              
                     $this->db->where('idCliente',$idCliente);
                     $this->db->update('cliente',$data);
-                     return $this->db->get();
+                     //return $this->db->get();
         }
 
         public function get_Cliente($id){

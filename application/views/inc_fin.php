@@ -312,7 +312,7 @@
         <!-- asta aca -->
 
         <!-- scrip para enviar la posicion de la mesa a la ventaana -->
-    <script src="<?php echo base_url(); ?>starbootstrap/js/consulta_sillas.js"></script>
+    <!-- <script src="<?php echo base_url(); ?>starbootstrap/js/consulta_sillas.js"></script> -->
     <!-- <script src="<?php echo base_url();?>starbootstrap/js/sillas.js"></script> -->
     
 

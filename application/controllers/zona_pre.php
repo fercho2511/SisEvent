@@ -22,7 +22,7 @@ class Zona_pre extends CI_Controller {
         $data['zona']=$lista;  
 		$this->load->view('inc_inicio.php');
         $this->load->view('inc_menu2.php');
-		$this->load->view('zona/zona_precio',$data);
+		$this->load->view('zona/zona',$data);
 		$this->load->view('inc_fin.php');
 
 	}

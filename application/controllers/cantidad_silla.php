@@ -15,7 +15,7 @@ class Cantidad_sillas extends CI_Controller {
     
          if ($this->input->is_ajax_request()) {
 
-            $buscar = $this->input->post("mesa");
+           // $buscar = $this->input->post("mesa");
             $datos= $this->cantidad_silla_model->get_cantidad($buscar);
              # code.
              echo $datos;

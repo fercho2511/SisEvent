@@ -115,10 +115,31 @@ class Usuario_per extends CI_Controller {
     public function test2()
 	{
      
-        $lista=$this->usuarioper_model->lista();
-        $data['usuario']=$lista; 
+        //$query=$_GET['mesa'];
+        $data['arrMesa']= "";
+        $data['mesa']= "";
+        $data['precio']= "";
 
-        $data['arrZona'] = $this->zona_model->get_zona();        
+
+        $mesa =$this->input->get('mesa', TRUE);
+        // echo $mesa;
+        if ($mesa) {
+            //$result = $this->silla_model->get_cantidad($query); 
+            
+                $data['arrMesa']=$this->silla_model->get_cantidad($mesa);
+                $data['mesa']=$mesa;
+                $data['precio']= $this->silla_model->get_precio($mesa);
+
+             
+               
+            
+        }
+      
+        
+       // $lista=$this->usuarioper_model->lista();
+        //$data['usuario']=$lista; 
+
+        //$data['arrZona'] = $this->zona_model->get_zona();        
 
 		$this->load->view('inc_inicio.php');
         // $this->load->view('inc_menu2.php');
@@ -126,6 +147,16 @@ class Usuario_per extends CI_Controller {
 		$this->load->view('inc_fin.php');
 
 	}
+
+
+
+    function formUser (){
+        $this->load->view('inc_inicio.php');
+         $this->load->view('inc_menu2.php');
+		$this->load->view('venta/formulario');
+		$this->load->view('inc_fin.php');
+
+    }
 
  
 

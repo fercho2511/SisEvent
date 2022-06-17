@@ -25,61 +25,41 @@ class Silla_model extends CI_Model {
     function get_cantidad($mesa){
 
          //armamos la consulta
-        //  $query = $this->db-> query("SELECT id,silla FROM mapa where estado = 1 and mesa = '$mesa' ");
-        //  // si hay resultados
-        //  if ($query->num_rows() > 0) {
-        //      // almacenamos en una matriz bidimensional
-        //      foreach($query->result() as $row)
-        //         $arrDatos[htmlspecialchars($row->id, ENT_QUOTES)] = 
-        //                   htmlspecialchars($row->silla, ENT_QUOTES);
-        //      $query->free_result();
-        //      return $arrDatos;
-        //   }
+         $query = $this->db-> query("SELECT silla,@rownum:=@rownum+1 as numero
+                                    FROM mapa t, (SELECT @rownum:=0) r
+                                    where estado = 1 and mesa = $mesa GROUP BY 1");
+         // si hay resultados
+         if ($query->num_rows() > 0) {
+             // almacenamos en una matriz bidimensional
+             foreach($query->result() as $row)
+                $arrDatos[htmlspecialchars($row->silla, ENT_QUOTES)] = 
+                          htmlspecialchars($row->numero, ENT_QUOTES);
+             $query->free_result();
+             return $arrDatos;
+          }
 
-                     $sql="SELECT id,silla FROM mapa where estado = 1 and mesa = '$mesa'";
+   
 
-                 $result=$sql;
-                 $cadena="<label>Cantidad</label> 
-                         <select id='lista2' name='lista2'>";
-                 while ($ver=mysqli_fetch_row($result)) {
-                     $cadena=$cadena.'<option value='.$ver[0].'>'.utf8_encode($ver[1]).'</option>';
-                 }
-
-                 return  $cadena."</select>";
-
-
-
-                // $movInt = $_GET['movInt'];
-                //     $sql="SELECT id,silla FROM mapa where estado = 1 and mesa = '$movInt' group by 1"; 
-                //     $result=$mysqli->query($sql);
-                //     $options="";
-                //     while ($row=$result->fetch_array(MYSQLI_ASSOC)) { 
-                //         $options.="<option value=\"$row[id]\">$row[id] $row[silla]</option>"; 
-                //     }
-                //     echo $options;
+               
     }
 
 
 
-    function get_cantidad2 (){
-
-        $sql="SELECT id,silla FROM mapa where estado = 1 and mesa = 1";
-
-        console.log($sql);
-
-
-        
-
-    }
 
     
-    function get_precio($id){
-        $query = $this->db-> query("SELECT Z.precio 
+    function get_precio($mesa){
+        $result="SELECT Z.precio as monto
                                     FROM zona Z 
                                     INNER JOIN mapa M ON M.zona = Z.idZona
-                                    WHERE M.mesa = '$id' and Z.estado = 1
-                                    GROUP BY 1");
-        return $query;
+                                    WHERE M.mesa = '$mesa' and Z.estado = 1
+                                    GROUP BY 1";
+       
+
+        $query = $this->db->query($result);
+        if ($query->num_rows() > 0) {
+                return $query->row()->monto;
+        }
+        return false; 
     }
 
 }

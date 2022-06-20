@@ -37,13 +37,9 @@
                                      <!-- <form id="quickForm" >  -->
                                      <?php
                                              //invocaremos a [estudiante] q pusimos en el array asociativo $data de estudiante.php
-                                            echo form_open_multipart('usuario_per/agregarUsu')
+                                            echo form_open_multipart('usuario_per/venta')
                                          ?>
-                                          <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
-
- 
-                                         
                                             <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
                                             <div class="form-group">
@@ -52,14 +48,14 @@
                                                                                     title="" required minlength="3"  maxlength="30"    pattern='[A-Za-z]{3,25}' value="<?php echo set_value('nombres');?>">
                                             </div>
                                             <div class="form-group"  >
-                                                <label class="form-label">Apellido Paterno</label>
-                                                <input type="text" class="form-control col-sm-6" name='apellidoPaterno' id='apellidoPaterno'  placeholder="Ingrese Apellido Paterno"
+                                                <label class="form-label">Apellido</label>
+                                                <input type="text" class="form-control col-sm-6" name='apellidos' id='apellidos'  placeholder="Ingrese Apellido"
                                                 required minlength="3"  maxlength="30"    pattern='[A-Za-z]{3,25}' >
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label class="form-label">Apellido Materno</label>
                                                 <input type="text" class="form-control col-sm-6" name='apellidoMaterno' id='apellidoMaterno'  placeholder="Ingrese Apellido Materno" minlength="3"  maxlength="30"    pattern='[A-Za-z]{3,25}'  >
-                                            </div>
+                                            </div> -->
                                             <!-- <div class="form-group">
                                                 <label class="form-label">Fecha Nacimiento</label>
                                                 <input type="date" class="form-control col-sm-4" name='fechaNacimiento' id='fechaNacimiento'  placeholder="Ingrese Fecha Nacimiento" required >
@@ -88,14 +84,14 @@
                                                 <label class="form-label">Telefono</label>
                                                 <input type="number" class="form-control col-sm-6" name='telefono' id='telefono'  placeholder="Ingrese telefono"  min="1"  pattern='^[0-9]+'   minlength="7"  maxlength="8"  >
                                             </div>
-                                            <!-- <div class="form-group">
+                                            <div class="form-group">
                                                 <label class="form-label">Correo</label>
                                                 <input type="text" class="form-control" name='correo'  placeholder="Ingrese Correo Electronico" >
-                                            </div> -->
-                                            <div class="form-group">
+                                            </div>
+                                            <!-- <div class="form-group">
                                                 <label class="form-label">Direccion</label>
                                                 <input type="text" class="form-control" name='direccion' id="direccion"   placeholder="Ingrese Direccion" >
-                                            </div>
+                                            </div> -->
                                             
                                             
 
@@ -111,7 +107,9 @@
 
                                             <div class="card-footer">
                                                 <button class="btn btn-outline-info" type="submit" title="Registrar"  >
-                                                <span class="fas fa-clipboard-check"> REGISTRAR</span>
+                                                <span class="fas fa-clipboard-check"> REGISTRAR VENTA</span>
+                                                <!-- <span class="fas fa-clipboard-check"> REGISTRAR VENTA</span> -->
+
                                                 </button>
                                                 <button class="btn btn-outline-info" type="button" onclick="history.back()" name="volver atrás" title="Cancelar" >
                                                 <span class="far fa-window-close"> CANCELAR</span>

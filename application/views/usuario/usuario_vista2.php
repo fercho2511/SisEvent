@@ -1193,7 +1193,7 @@ date_default_timezone_set('America/La_paz');
                         <!-- Pie Chart -->
                         <div class="col-xl-3 col-lg-2">
                             <div class="card shadow mb-5">
-                            <form action="<?php echo base_url();?>index.php/usuario_per/formUser" method="POST">
+                            <form action="<?php echo base_url();?>index.php/usuario_per/formUser" method="GET">
 
                                 <!-- Card Header - Dropdown -->
                                 <div

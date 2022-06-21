@@ -12,10 +12,11 @@ function registrarVenta (){
     $correo = $this->input->post("correo");
     $telefono = $this->input->post("telefono");
     $numSilla = $this->input->post("numSilla");
-    $mes= $this->input->post("mesa");
-    $zona = $this->input->post("zona");
 
+    $mesa= $this->input->post("mesa");
+    $cantidad = $this->input->post("cantidad");
     $idUsuario=$this->session->userdata('idusuario');
+    $precioTotal = $this->input->post('precio');
 
     $this->form_validation->set_rules("nombres","Nombre del Cliente","required");
     // $this->form_validation->set_rules("apellidos","Apellidos","required");
@@ -48,7 +49,7 @@ function registrarVenta (){
             //code...
 
                     $this->db->trans_begin();  //iniciamso la transaccion
-                    $this->silla_model->registrarSilla($data);
+                    $this->silla_model->registrarUsuario($data);
                     $id= $this->db->insert_id();
 
                     if ($id>0) {

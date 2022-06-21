@@ -1,5 +1,9 @@
 
-
+<?php
+$mesa = $_GET['numSilla'];
+$cantidadSillas=$_GET['silla'];
+$precio=$_GET['precioTotal']
+?>
 
 
   <div class="content-wrapper">
@@ -40,8 +44,25 @@
                                             echo form_open_multipart('usuario_per/venta')
                                          ?>
 
+                                         
+
                                             <input type="hidden" name="idUsuario_Acciones" value="<?php echo $this->session->userdata('idusuario');?>">
 
+                                            <div class="form-group">
+                                                <label class="form-label">Mesa</label>
+                                                <input type="text" class="form-control col-sm-6" name='mesa' id="mesa"  readonly
+                                                                                   value="<?php echo $mesa;?>">
+<br>
+                                                 <label class="form-label">Cantidad de Sillas</label>
+                                                <input type="text" class="form-control col-sm-6" name='cantidad' id="cantidad"  readonly
+                                                                                   value="<?php echo $cantidadSillas;?>">
+                                                <br>
+                                                 <label class="form-label">Precio total en Bs.-</label>
+                                                <input type="text" class="form-control col-sm-6" name='precio' id="precio"  readonly
+                                                                                   value="<?php echo $precio;?>">
+
+                                                                                   
+                                            </div>
                                             <div class="form-group">
                                                 <label class="form-label">Nombre</label>
                                                 <input type="text" class="form-control col-sm-6" name='nombres' id="nombres"  placeholder="Ingrese Nombre" 
@@ -82,7 +103,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="form-label">Telefono</label>
-                                                <input type="number" class="form-control col-sm-6" name='telefono' id='telefono'  placeholder="Ingrese telefono"  min="1"  pattern='^[0-9]+'   minlength="7"  maxlength="8"  >
+                                                <input type="number" class="form-control col-sm-6" name='telefono' id='telefono'  placeholder="Ingrese telefono"  min="1"  pattern='^[0-9]+'   minlength="7"  maxlength="8"  required >
                                             </div>
                                             <div class="form-group">
                                                 <label class="form-label">Correo</label>

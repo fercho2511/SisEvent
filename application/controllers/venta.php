@@ -38,43 +38,52 @@ function registrarVenta (){
 
     if ($this->form_validation->run()) {
         $data  = array(
-            'nombres' => $nombres, 
+            'nombres' => $nombres,
             'apellidos' => $apellidos,
             'correo' => $correo,
             'telefono' => $telefono,
             'ci' => $ci,
-            'usuario_idUsuario' => $idUsuario,               
+            'usuario_idUsuario' => $idUsuario,
         );
         try {
             //code...
 
                     $this->db->trans_begin();  //iniciamso la transaccion
-                    $this->silla_model->registrarUsuario($data);
+                    $this->cliente_model->crearCliente($data);
                     $id= $this->db->insert_id();
 
                     if ($id>0) {
-                       $idZon=$this->zona_model->getZona($zona);
-                        $data2  = array(                   
-                            'idUsuarioAcciones' => $idUsuario,
-                            'numSilla' => $numSilla,
-                            'idZona' => $idZon,
-                            'idCliente'=>$id,
-                        );                
-                        $this->silla_model->registroSilla($data2);
+                    //    $idZon=$this->zona_model->getZona($zona);
+                        // $data2  = array(
+                        //     'idUsuarioAcciones' => $idUsuario,
+                        //     'mesa' => $mesa,
+                        //     //'idZona' => $idZon,
+                        //     'idCliente'=>$id,
+                        // );
+                        //aca se procedera a realizar el update en cada silla
+                        
+                           for ($i=0; $i < $cantidad ; $i++) { 
+                            $this->venta_model->registrarVenta($id,$mesa,$idUsuario);
+
+                           }
+
+                          
+                        
+
                         $this->db->trans_commit();
                         echo '<script>
                         alert("Registro de Silla exitosa");
                         </script>';
-                        redirect('usuario_per/test', 'refresh');
+                        redirect('usuario_per/test2', 'refresh');
 
-                        // redirect(base_url()."index.php/usuario_per/test");	
-                    }  
-                
+                        // redirect(base_url()."index.php/usuario_per/test");
+                    }
+
                 else{
                     // $this->test();
                     echo '<script>
                         alert("Error de Registro");
-                        </script>'; 
+                        </script>';
                             redirect('usuario_per/test', 'refresh');
                 }
             }
@@ -85,7 +94,7 @@ function registrarVenta (){
                     </script>';
                     redirect('usuario_per/test','refresh');
                 }
-            
+
 
     }
     else {
@@ -101,7 +110,7 @@ function registrarVenta (){
 }
 
 
- 
+
 
 
 }

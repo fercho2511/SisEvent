@@ -41,7 +41,7 @@ $precio=$_GET['precioTotal']
                                      <!-- <form id="quickForm" >  -->
                                      <?php
                                              //invocaremos a [estudiante] q pusimos en el array asociativo $data de estudiante.php
-                                            echo form_open_multipart('usuario_per/venta')
+                                            echo form_open_multipart('venta/registrarVenta')
                                          ?>
 
                                          

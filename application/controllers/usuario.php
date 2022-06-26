@@ -5,33 +5,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Usuario extends CI_Controller {
 
 
-        /*public function index()
-        {
-        
-            
-            //index.php/controlador/metodo/
-            $data['msg']=$this->uri->segment(3);
-
-            //carga del panel de control
-            if ($this->session->userdata('login')) //consultara si hay una variable de secion
-            {
-                //si hay entonces redireccionar
-                redirect('usuario/panel','refresh'); //panel es un metodo de este controlador
-            
-            }
-            else {
-                //cargar un login form
-                $this->load->view('inc_inicio.php');
-                $this->load->view('login_formulario',$data);
-                $this->load->view('inc_fin.php');
-            }
-        
-        }*/
-        
         public function index()
         {
         
             
+          $this->load->view('usuario/vista');
+
+        
+        }
+        
+        public function index2()
+        {
+        
+     
             //index.php/controlador/metodo/
             $data['msg']=$this->uri->segment(3);
 
@@ -40,7 +26,7 @@ class Usuario extends CI_Controller {
             {
                 //si hay entonces redireccionar
                 redirect('usuario/panel','refresh'); //panel es un metodo de este controlador
-            
+     
             }
             else {
                 //cargar un login form

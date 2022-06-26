@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario_per extends CI_Controller {
@@ -86,30 +86,21 @@ class Usuario_per extends CI_Controller {
     }
   
 
-    public function test3()
-	{
+    // public function test3()
+	// {
 
-        $id = $this->input->post("mesa");
-
-        if($id) {
-
-            $lista=$this->usuarioper_model->lista();
-            $data['usuario']=$lista; 
-    
-            // $data['arrZona'] = $this->zona_model->get_zona();   
-            $data['arrSilla'] = $this->silla_model->get_cantidad2($id); 
-            $data['prec']= $this->silla_model->get_precio($id) ;     
+             
          
     
-            $this->load->view('inc_inicio.php');
-            // $this->load->view('inc_menu2.php');
-            $this->load->view('usuario/usuario_vista',$data);
-            $this->load->view('inc_fin.php');
-        }
+    //         // $this->load->view('inc_inicio.php');
+    //         // $this->load->view('inc_menu2.php');
+    //         $this->load->view('usuario/vista.php');
+    //         // $this->load->view('inc_fin.php');
+        
      
       
 
-	}
+	// }
 
 
     public function test2()
@@ -566,4 +557,4 @@ class Usuario_per extends CI_Controller {
 
 
 
-}
+} 

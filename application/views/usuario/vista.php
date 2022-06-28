@@ -103,11 +103,11 @@
 					  <!-- <div>
 					  <img src="<?php echo base_url();?>assets/img/eventos/1.jpg" alt="Logo">
 					  </div> -->
-                     <h2 class="wow bounceIn animated" data-wow-delay=".40s">FRIENDLY <span>TEMPLATE</span> FOR <br/>YOUR WEBSITE</h2>
-                   <h3 class="wow bounceIn animated" data-wow-delay=".50s">FOR YOUR WEBSITE </h3>
-                    <p class="wow bounceIn animated" data-wow-delay=".60s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.We ensure sit amet, consectetur adipiscing elit</p> -->
+                     <h2 class="wow bounceIn animated" data-wow-delay=".40s">LOS MEJORES EVENTOS <span>EN BOLIVIA</span>   <br/>POR TU SITIO FAVORITO</h2>
+                   <h3 class="wow bounceIn animated" data-wow-delay=".50s">EVENTOS BOLIVIA </h3>
+                    <p class="wow bounceIn animated" data-wow-delay=".60s"></p> 
                      <p>
-                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Here</span></i>
+                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Aqui</span></i>
                         </div>
                     </p>
 					</div>               
@@ -115,22 +115,22 @@
 				 <div>
 				  <div class="col-xs-12 col-sm-6 col-md-6 header-text">
 				  <!-- <img src="<?php echo base_url();?>assets/img/eventos/1.jpg" alt="Logo" with="40px"> -->
-                    <h2 class="wow bounceIn animated" data-wow-delay=".40s">FRIENDLY <span>THIS</span> FOR <br/>YOUR WEBSITE</h2>
-                    <h3 class="wow bounceIn animated" data-wow-delay=".50s">FOR YOUR WEBSITE </h3>
-                    <p class="wow bounceIn animated" data-wow-delay=".60s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.We ensure sit amet, consectetur adipiscing elit</p>
+                    <h2 class="wow bounceIn animated" data-wow-delay=".40s">LOS MEJORES EVENTOS  <span>EN BOLIVIA<HIS</span> <br/>POR TU SITIO FAVORITO</h2>
+                    <h3 class="wow bounceIn animated" data-wow-delay=".50s">EVENTOS BOLIVIA </h3>
+                    <p class="wow bounceIn animated" data-wow-delay=".60s"></p>
                     <p>
-                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Here</span></i>
+                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Aqui</span></i>
                         </div>
                     </p>
 					</div>               
 				</div>
 				<div>
 					<div class="col-xs-12 col-sm-6 col-md-6 header-text">
-					  <h2 class="wow bounceIn animated" data-wow-delay=".40s">hola <span>THIS</span> FOR <br/>YOUR WEBSITE</h2>
-					  <h3 class="wow bounceIn animated" data-wow-delay=".50s">FOR YOUR WEBSITE </h3>
-					  <p class="wow bounceIn animated" data-wow-delay=".60s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.We ensure sit amet, consectetur adipiscing elit</p>
+					  <h2 class="wow bounceIn animated" data-wow-delay=".40s">LOS MEJORES EVENTOS <span>EN BOLIVIA</span> <br/>POR TU SITIO FAVORITO</h2>
+					  <h3 class="wow bounceIn animated" data-wow-delay=".50s">EVENTOS BOLIVIA </h3>
+					  <p class="wow bounceIn animated" data-wow-delay=".60s"></p>
 					  <p>
-						  <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Here</span></i>
+						  <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><i class="hbtn"></i> <span>Click Aqui</span></i>
 						  </div>
 					  </p>
 					  </div>               
@@ -421,7 +421,7 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 <br>
 <section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
 				<div class="title">
-							<h2>Galeria</h2>				
+							<h2>GALERIA DE EVENTOS</h2>				
 							<!-- <p>we are   awesome,   check some interesting facts</p> -->
 							</div>
 						
@@ -441,8 +441,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 
 			<div class="grid baguetteBoxThree gallery">
 				<div class="element-item transition webdesign " data-category="post-transition">
-				 <a href="<?php echo base_url();?>assets/img/gallery/emp-1.jpg">	  
-				<img src="<?php echo base_url();?>assets/img/gallery/emp-1.jpg"/>      
+				 <a href="<?php echo base_url();?>assets/img/gallery/1.jpg">	  
+				<img src="<?php echo base_url();?>assets/img/gallery/1.jpg"/>      
 					<div class="hover-img"> 
 					<h2>En Junio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -450,8 +450,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 				</a>
 				</div>      
 				<div class="element-item post-transition ecommerce " data-category="post-transition">
-				<a href="<?php echo base_url();?>assets/img/gallery/emp-2.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-2.jpg"/>    
+				<a href="<?php echo base_url();?>assets/img/gallery/2.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/2.jpg"/>    
 					<div class="hover-img"> 
 					<h2>En Julio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -459,8 +459,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 				</a>
 				</div>
 				<div class="element-item post-transition webdesign " data-category="post-transition">
-				<a href="<?php echo base_url();?>assets/img/gallery/emp-3.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-3.jpg"/>       
+				<a href="<?php echo base_url();?>assets/img/gallery/3.png">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/3.png"/>       
 					<div class="hover-img"> 
 					<h2>En Junio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -468,8 +468,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item transition ecommerce " data-category="post-transition">
-				<a href="<?php echo base_url();?>assets/img/gallery/emp-4.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-4.jpg"/>       
+				<a href="<?php echo base_url();?>assets/img/gallery/4.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/4.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Julio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -477,8 +477,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>		
 				</div>      
 				<div class="element-item post-transition logo " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-5.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-5.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/5.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/5.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Septiembre</h2>
 					<i class="fa fa-camera camera"></i>
@@ -486,8 +486,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item post-transition cms " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-6.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-6.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/14.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/14.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Agosto</h2>
 					<i class="fa fa-camera camera"></i>
@@ -495,8 +495,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item post-transition logo " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-7.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-7.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/7.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/7.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Septiembre</h2>
 					<i class="fa fa-camera camera"></i>
@@ -504,8 +504,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item transition cms " data-category="post-transition">
-				<a href="<?php echo base_url();?>assets/img/gallery/emp-8.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-8.jpg"/>       
+				<a href="<?php echo base_url();?>assets/img/gallery/8.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/8.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Agosto</h2>
 					<i class="fa fa-camera camera"></i>
@@ -513,8 +513,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>      
 				<div class="element-item post-transition ecommerce " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-9.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-9.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/9.jpeg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/9.jpeg"/>       
 					<div class="hover-img"> 
 					<h2>En Julio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -522,8 +522,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item post-transition webdesign " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-10.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-10.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/13.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/13.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Junio</h2>
 					<i class="fa fa-camera camera"></i>
@@ -531,8 +531,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>          
 				</div>
 				<div class="element-item post-transition logo " data-category="post-transition">
-					<a href="<?php echo base_url();?>assets/img/gallery/emp-11.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-11.jpg"/>       
+					<a href="<?php echo base_url();?>assets/img/gallery/11.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/11.jpg"/>       
 					<div class="hover-img"> 
 					<h2>En Septiembre</h2>
 					<i class="fa fa-camera camera"></i>
@@ -540,8 +540,8 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</a>
 				</div>
 				<div class="element-item transition cms " data-category="post-transition">
-				<a href="<?php echo base_url();?>assets/img/gallery/emp-12.jpg">	 
-					<img src="<?php echo base_url();?>assets/img/gallery/emp-12.jpg"/>       
+				<a href="<?php echo base_url();?>assets/img/gallery/12.png">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/12.png"/>       
 					<div class="hover-img"> 
 					<h2>En Agosto</h2>
 					<i class="fa fa-camera camera"></i>

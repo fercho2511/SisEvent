@@ -38,7 +38,9 @@ Licence URI: https://www.os-templates.com/template-terms
       <nav id="mainav" class="fl_right"> 
         <!-- ################################################################################################ -->
         <ul class="clear">
-          <li class="active"><a href="<?php echo base_url();?>index.php/usuario/index">Home</a></li>
+          <li class="active"><a href="<?php echo base_url();?>index.php/usuario/index">INICIO</a></li>
+          <li class="active"><a href="<?php echo base_url();?>index.php/evento/evento1">MAPA</a></li>
+
           <!-- <li><a class="drop" href="#">Pages</a>
             <ul>
               <li><a href="<?php echo base_url();?>nocobot/pages/gallery.html">Gallery</a></li>

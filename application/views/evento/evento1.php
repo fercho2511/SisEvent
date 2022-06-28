@@ -83,7 +83,7 @@ date_default_timezone_set('America/La_paz');
 
 
                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="800px" height="760px" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
+                            width="100%" height="100%" viewBox="0 0 800 760" enable-background="new 0 0 800 760" xml:space="preserve">
 
                             <!-- <a class="dropdown-item1" href="#" data-toggle="modal" data-target="#exampleModalCenter" title ="mesa 1"> -->
 
@@ -1032,7 +1032,7 @@ date_default_timezone_set('America/La_paz');
                                     <div class="mt-2 text-center small">
                                   
 
-                                        <button type="submit" class="btn btn-outline-primary" >VENTA</button>
+                                        <button type="submit" class="btn btn-primary" >VENTA</button>
                                         <!-- <button type="submit" class="btn btn-outline-primary" >RESERVA</button> -->
                                     </div>
                                 </div>

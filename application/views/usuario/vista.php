@@ -76,9 +76,9 @@
                         <li>
                             <a class="page-scroll" href="#Gallery">GALERIA</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a class="page-scroll" href="#blog">BLOG</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a class="page-scroll" href="<?php echo base_url();?>index.php/usuario/index2">INGRESAR</a>
                         </li>
@@ -169,7 +169,7 @@
 				<!-- <p>Meet some of our lovely, passionate, positive people.</p> -->
 				</div>
           <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".1s">
-                   <div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/1.jpg"/></div>
+                   <div class="timg"><img  src="<?php echo base_url();?>assets/img/eventos/5.jpg"/></div>
 				    <div class="t-box">
               <!-- <h3>MOHD SUBHAN</h3> -->
               <!-- <span>Creative Director </span> -->
@@ -181,39 +181,39 @@
             </div>
            </div>
 				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".2s">
-                    <div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/2.jpg"/></div>
+                    <div class="timg"><img  src="<?php echo base_url();?>assets/img/eventos/2.jpg"/></div>
 				   <div class="t-box">
 				   <!-- <h3>Mohd Rahman</h3>
 				   <span>Website & ui designer</span> -->
 				   <ul class="social-links">
 						<!-- <li><a class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-facebook"></i></a></li>
 						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-twitter"></i></a></li> -->
-						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i>OBTEN TU ENTRADA</i></a></li>
 					</ul>
 				   </div>				   
                   </div>
 				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".3s">
-                    <div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/3.jpg"/></div>
+                    <div class="timg"><img  src="<?php echo base_url();?>assets/img/eventos/3.jpg"/></div>
 				   <div class="t-box">
 				   <!-- <h3>ZEENAT SUBHAN</h3>
 				   <span>Senior Developer</span> -->
 				   <ul class="social-links">
 						<!-- <li><a class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-facebook"></i></a></li>
 						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-twitter"></i></a></li> -->
-						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i>OBTEN TU ENTRADA</i></a></li>
 					</ul>
 				   </div>
                   </div> 
 
 				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".4s">
-                    <div class="timg"><img src="<?php echo base_url();?>assets/img/team-img4.jpg"/></div>
+                    <div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/9.jpg"/></div>
 				    <div class="t-box">
 				   <!-- <h3>MOHD SAIF</h3>
 				   <span>Content Writer</span> -->
 				   <ul class="social-links">
 						<!-- <li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
 						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-twitter"></i></a></li> -->
-						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i >OBTEN TU ENTRADA</i></a></li>
 					</ul>
 				   </div>
                   </div>      
@@ -225,38 +225,38 @@
             <div class="row">
 			
 				<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".1s">
-						<div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/1.jpg"/></div>
+						<div class="timg"><img  src="<?php echo base_url();?>assets/img/eventos/6.jpg"/></div>
 							<div class="t-box">
 					<!-- <h3>MOHD SUBHAN</h3> -->
 					<!-- <span>Creative Director </span> -->
 						<ul class="social-links">
 							<!-- <li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
 							<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-twitter"></i></a></li> -->
-							<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+							<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i>OBTEN TU ENTRADA</i></a></li>
 						</ul>
 					</div>
 				</div>
 						<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".2s">
-							<div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/2.jpg"/></div>
+							<div class="timg"><img  src="<?php echo base_url();?>assets/img/eventos/7.jpg"/></div>
 						<div class="t-box">
 						<!-- <h3>Mohd Rahman</h3>
 						<span>Website & ui designer</span> -->
 						<ul class="social-links">
 								<!-- <li><a class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-facebook"></i></a></li>
 								<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-twitter"></i></a></li> -->
-								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i>OBTEN TU ENTRADA</i></a></li>
 							</ul>
 						</div>				   
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".3s">
-							<div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/3.jpg"/></div>
+							<div class="timg"><img src="<?php echo base_url();?>assets/img/eventos/8.jpg"/></div>
 						<div class="t-box">
 						<!-- <h3>ZEENAT SUBHAN</h3>
 						<span>Senior Developer</span> -->
 						<ul class="social-links">
 								<!-- <li><a class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-facebook"></i></a></li>
 								<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-twitter"></i></a></li> -->
-								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-google-plus"></i>OBTEN TU ENTRADA</a></li>
+								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i></i>OBTEN TU ENTRADA</a></li>
 							</ul>
 						</div>
 						</div> 
@@ -269,7 +269,7 @@
 						<ul class="social-links">
 								<!-- <li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
 								<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-twitter"></i></a></li> -->
-								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i class="fa fa-google-plus">OBTEN TU ENTRADA</i></a></li>
+								<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="<?php echo base_url();?>index.html#"><i>OBTEN TU ENTRADA</i></a></li>
 							</ul>
 						</div>
 						</div>      
@@ -279,6 +279,7 @@
         </div> 
 		<!-- =============== container end =============== -->		
     </section>	
+	<br>
 	<!-- =============== Services =============== -->
     <section id="Services" class="">
 		<!-- =============== container =============== -->
@@ -288,9 +289,9 @@
                      <img src="<?php echo base_url();?>assets/img/services-img.jpg" class="img-left"/>               
                   </div>     
                 <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                   <h2>Services</h2>
-				   <p>Lorem ipsum dolor sit amet, netus pellentesque mauris, non quis adipiscing aliquam tortor nulla, ut dolor, mauris sem ultricies sed tellus ut aliquam. Donec vel sollicitudin orci mi ut, neque aliquam vel vel nostrum enim tristique, magna rhoncus. Dapibus purus eget cubilia eget, in ut in mi dui ipsum odio, nullam vestibulum aliquam fusce, dignissim venenatis ultricies sed mattis non, metus a libero et. Imperdiet aliquet. Vivamus malesuada, ultrices convallis, diam vitae pellentesque volutpat ante vitae amet, ac leo, arcu duis venenatis in auctor sit suscipit. </p>
-				   <p>Integer sapien sed mauris nec, volutpat risus leo placerat elit at aliquet, a egestas ultrices, vitae non amet lacus etiam, malesuada pellentesque scelerisque. Neque fermentum parturient ante pede, a dui ut ultricies luctus non nobis, amet nibh et. Diam nunc in eleifend commodo ante, amet quam integer dolor sit volutpat faucibus, sed sem, et amet sed, vestibulum mollit et a ac nullam. Eu nunc voluptas risus dui et pellentesque.</p>
+                   <h2>Servicios </h2>
+				   <p>Eventos Bolia, es una plataforma en la cual podras no solo ver todos los eventos en cartelera, sino que tambien podras adquirir tu entrada de forma online </p>
+				   <p>Esta es una plataforma responsiva, lo cual podras adquirir los servicios desde cualquier dispositivo disponible</p>
                   </div>
                  
             </div>
@@ -298,7 +299,7 @@
 		<!-- =============== container end =============== -->		
     </section>	
 	<!-- =============== for box =============== -->		
-	<section class="for-box">
+	<!-- <section class="for-box">
 	 <div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".1s">
@@ -371,11 +372,11 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 			</div>
 		</div>
 	 </div>
-	</section>
+	</section> -->
 	<!-- =============== Counter =============== -->
-    <section class="counter">
+    <!-- <section class="counter"> -->
 		<!-- =============== container =============== -->
-        <div class="container">            
+        <!-- <div class="container">            
             <div class="row">
 			<div class="title">
 				<h2>we are   awesome,   check some interesting facts</h2>				
@@ -411,150 +412,154 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 							<span>Projects Delivered</span>
                   </div>  
             </div>
-        </div>   
+        </div>    -->
 		<!-- =============== container end =============== -->		
-    </section>	
+    <!-- </section>	 -->
     
 <!-- =============== Gallery =============== -->
-    <section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
-	<div class="title">
-				<h2>Gallery</h2>				
-				<p>we are   awesome,   check some interesting facts</p>
+<br>
+<br>
+<section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
+				<div class="title">
+							<h2>Galeria</h2>				
+							<!-- <p>we are   awesome,   check some interesting facts</p> -->
+							</div>
+						
+				<div class="big-demo go-wide" data-js-module="filtering-demo">
+				<div class="container">            
+						<div class="row">
+			<div class="filter-button-group button-group js-radio-button-group">
+				<button class="button is-checked" data-filter="*">Todos</button>
+				<button class="button" data-filter=".webdesign">Junio</button>
+				<button class="button" data-filter=".ecommerce">Julio</button>  
+				<button class="button" data-filter=".cms">Agosto</button>  
+				<button class="button" data-filter=".logo">Septiembre</button>  
+			</div>
+			</div>
+			</div>
+
+
+			<div class="grid baguetteBoxThree gallery">
+				<div class="element-item transition webdesign " data-category="post-transition">
+				 <a href="<?php echo base_url();?>assets/img/gallery/emp-1.jpg">	  
+				<img src="<?php echo base_url();?>assets/img/gallery/emp-1.jpg"/>      
+					<div class="hover-img"> 
+					<h2>En Junio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>
+				</a>
+				</div>      
+				<div class="element-item post-transition ecommerce " data-category="post-transition">
+				<a href="<?php echo base_url();?>assets/img/gallery/emp-2.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-2.jpg"/>    
+					<div class="hover-img"> 
+					<h2>En Julio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>		
+				</a>
 				</div>
+				<div class="element-item post-transition webdesign " data-category="post-transition">
+				<a href="<?php echo base_url();?>assets/img/gallery/emp-3.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-3.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Junio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>		
+					</a>
+				</div>
+				<div class="element-item transition ecommerce " data-category="post-transition">
+				<a href="<?php echo base_url();?>assets/img/gallery/emp-4.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-4.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Julio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>		
+				</div>      
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-5.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-5.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Septiembre</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>
+				<div class="element-item post-transition cms " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-6.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-6.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Agosto</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-7.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-7.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Septiembre</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>
+				<div class="element-item transition cms " data-category="post-transition">
+				<a href="<?php echo base_url();?>assets/img/gallery/emp-8.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-8.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Agosto</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>      
+				<div class="element-item post-transition ecommerce " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-9.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-9.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Julio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>
+				<div class="element-item post-transition webdesign " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-10.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-10.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Junio</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>          
+				</div>
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="<?php echo base_url();?>assets/img/gallery/emp-11.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-11.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Septiembre</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>
+				<div class="element-item transition cms " data-category="post-transition">
+				<a href="<?php echo base_url();?>assets/img/gallery/emp-12.jpg">	 
+					<img src="<?php echo base_url();?>assets/img/gallery/emp-12.jpg"/>       
+					<div class="hover-img"> 
+					<h2>En Agosto</h2>
+					<i class="fa fa-camera camera"></i>
+					</div>	
+					</a>
+				</div>      
+			</div>
+
 			
-	<div class="big-demo go-wide" data-js-module="filtering-demo">
-	<div class="container">            
-            <div class="row">
-  <div class="filter-button-group button-group js-radio-button-group">
-    <button class="button is-checked" data-filter="*">show all</button>
-    <button class="button" data-filter=".webdesign">Web design</button>
-    <button class="button" data-filter=".ecommerce">E-commerce</button>  
-	 <button class="button" data-filter=".cms">Cms</button>  
-	<button class="button" data-filter=".logo">Logo</button>  
-  </div>
-</div>
-</div>
-
-
-  <div class="grid baguetteBoxThree gallery">
-      <div class="element-item transition webdesign " data-category="post-transition">
-	  <a href=<?php echo base_url();?>"assets/img/gallery/emp-1.jpg">	 
-	  <img src="<?php echo base_url();?>assets/img/gallery/emp-1.jpg"/>      
-		<div class="hover-img"> 
-		<h2>Website Design</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>
-	  </a>
-      </div>      
-      <div class="element-item post-transition ecommerce " data-category="post-transition">
-	  <a href="<?php echo base_url();?>assets/img/gallery/emp-2.jpg">	 
-        <img src="<?php echo base_url();?>assets/img/gallery/emp-2.jpg"/>    
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>		
-	  </a>
-      </div>
-      <div class="element-item post-transition webdesign " data-category="post-transition">
-	  <a href="<?php echo base_url();?>assets/img/gallery/emp-3.jpg">	 
-		<img src="<?php echo base_url();?>assets/img/gallery/emp-3.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Website Design</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>		
-		</a>
-      </div>
-	 <div class="element-item transition ecommerce " data-category="post-transition">
-	   <a href="<?php echo base_url();?>assets/img/gallery/emp-4.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-4.jpg"/>       
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>		
-      </div>      
-      <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="<?php echo base_url();?>assets/img/gallery/emp-5.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-5.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-      <div class="element-item post-transition cms " data-category="post-transition">
-		 <a href="<?php echo base_url();?>assets/img/gallery/emp-6.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-6.jpg"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="<?php echo base_url();?>assets/img/gallery/emp-7.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-7.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item transition cms " data-category="post-transition">
-	   <a href="<?php echo base_url();?>assets/img/gallery/emp-8.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-8.jpg"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>      
-      <div class="element-item post-transition ecommerce " data-category="post-transition">
-         <a href="<?php echo base_url();?>assets/img/gallery/emp-9.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-9.jpg"/>       
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-      <div class="element-item post-transition webdesign " data-category="post-transition">
-		 <a href="<?php echo base_url();?>assets/img/gallery/emp-10.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-10.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Web Design</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>          
-      </div>
-	  <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="<?php echo base_url();?>assets/img/gallery/emp-11.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-11.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item transition cms " data-category="post-transition">
-	   <a href="<?php echo base_url();?>assets/img/gallery/emp-12.jpg">	 
-	    <img src="<?php echo base_url();?>assets/img/gallery/emp-12.jpg"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>      
-  </div>
-
- 
-</div>
+			</div>
+			
 
 
 </section>
-	<section id="blog" class="">
+<br>
+	<!-- <section id="blog" class=""> -->
 		<!-- =============== container =============== -->
-        <div class="container">            
+        <!-- <div class="container">            
             <div class="row">
 				<div class="title">
 				<h2>Our Blog</h2>
@@ -603,16 +608,16 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					  </div>
                   </div>        
             </div>
-        </div>   
+        </div>    -->
 		<!-- =============== container end =============== -->		
-    </section>	
+    <!-- </section>	 -->
 	<section id="contact">
 	<!-- =============== container =============== -->
 		<div class="container">
 			    <div class="row">
                 <div class="title">
-				<h2>Contact</h2>
-				<p>Meet some of our lovely, passionate, positive people.</p>
+				<h2>Contactanos</h2>
+				<!-- <p>Meet some of our lovely, passionate, positive people.</p> -->
 				</div>
 			</div>
 
@@ -623,20 +628,20 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					<form action="#" method="post">
 						<div class="ajax-hidden">
 							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-								<label for="c_name" class="sr-only">Name</label>
-								<input type="text" placeholder="Name" name="name" class="form-control" id="name" required="">
+								<label for="c_name" class="sr-only">Nombre</label>
+								<input type="text" placeholder="Nombre" name="name" class="form-control" id="name" required="">
 							</div>
 
 							<div data-wow-delay=".1s" class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-								<label for="c_email" class="sr-only">Email</label>
-								<input type="email" placeholder="E-mail" name="email" class="form-control" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="e.g. info@envato.com" required="">
+								<label for="c_email" class="sr-only">Correo</label>
+								<input type="email" placeholder="Correo" name="email" class="form-control" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="e.g. info@envato.com" required="">
 							</div>
 
 							<div data-wow-delay=".2s" class="col-xs-12 col-sm-12 col-md-12 form-group wow fadeInUp animated">
 								<textarea placeholder="Message" rows="7" name="description" id="description" class="form-control" required=""></textarea>
 							</div>
 
-							<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated" type="submit">Send Message</button>
+							<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated" type="submit">Enviar mensaje</button>
 						</div>
 						<div class="ajax-response"></div>
 					</form>
@@ -661,18 +666,18 @@ nullam rhoncus tortor at dignissim vehicula.</p>
 					</ul>
 
                     <p class="copyright">
-                        &copy; 2016 Be. Created By <a href="http://templatestock.co">Template Stock</a>
+                        &copy; 2022 Be. Created By <a href="#">Fernando Silva</a>
 					</p>
 
 				</div>
 				<div data-wow-delay=".6s" class="col-xs-12 col-sm-6 col-md-6 wow bounceIn  animated" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceIn;">
 
 					  <section class="widget widget_text" id="text-15">
-                         <h3 class="widget-title">California, United States</h3> <div class="textwidget">786, Firs Avenue, The Mall,<br>
-                        <p>Tel: 01 234-56786<br>
-                        Mobile: 01 234-56786<br>
-                        E-mail: <a href="#">info@Be.com</a></p>
-                        <a href="#">Get directions on the map</a> →</div>
+                         <h3 class="widget-title">Cochabamba, Bolivia</h3> <div class="textwidget"><br>
+                        <p>Tel: 4739597<br>
+                        Celular: 70392277 - 67411677<br>
+                        E-mail: <a href="#">fercho11251989@gmail.com</a></p>
+                        <!-- <a href="#">Get directions on the map</a> →</div> -->
                     </section>
 
 				</div>

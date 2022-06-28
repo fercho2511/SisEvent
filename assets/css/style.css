@@ -205,6 +205,12 @@ transition: all 0.35s ease 0s;
 	padding:100px 0 220px;
     transition: all 0.35s ease 0s;
 }
+/* para las imagenes de los eventos */
+img.grande{
+    width: 200px;
+    height: 200px;
+  }
+  
 .t-box {
     background: rgb(17, 16, 16) none repeat scroll 0 0;
     color: rgb(241, 237, 237);

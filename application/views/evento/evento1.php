@@ -342,10 +342,10 @@ date_default_timezone_set('America/La_paz');
    
                                 </a>
                                 <a xlink:href="" xlink:title="Mesa 18" class="dropdown-item" href="<?= base_url ('index.php/evento/evento1?mesa=18') ?>" >
-                                    <rect class="silla" id="mesa18" x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                                    <rect  id="mesa18" x="727.061" y="461.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -37.9182 875.8308)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                                     <rect class="silla" id="silla180" x="770.147" y="432.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 0.5306 876.9299)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                                     <rect class="silla" id="silla181" x="744.764" y="435.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -14.785 856.6858)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
-                                    <polyline id="silla182" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 
+                                    <polyline class="silla" id="silla182" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" points="793.91,462.104 788.76,470.676 
                                         778.475,464.494 783.625,455.924 793.91,462.104 "/>
                                     <rect class="silla" id="silla183" x="736.794" y="448.339" transform="matrix(0.515 -0.8572 0.8572 0.515 -29.0334 856.36)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11.001" height="10.998"/>
                                     <rect class="silla" id="silla184" x="773.224" y="469.728" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -30.0658 898.324)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="11" height="12"/>
@@ -358,7 +358,7 @@ date_default_timezone_set('America/La_paz');
    
                                 </a>
                                 <a xlink:href="" xlink:title="Mesa 19" class="dropdown-item" href="<?= base_url ('index.php/evento/evento1?mesa=19') ?>" >
-                                    <rect class="silla" id="mesa19" x="461.061" y="419.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -130.9155 627.4572)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                                    <rect  id="mesa19" x="461.061" y="419.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -130.9155 627.4572)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                                     <rect class="silla" id="silla190" x="504.147" y="390.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -92.4917 628.5354)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                                     <rect class="silla" id="silla191" x="478.764" y="393.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -107.7692 608.3232)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                                     <rect class="silla" id="silla192" x="515.192" y="415.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -108.8433 650.2245)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
@@ -388,7 +388,7 @@ date_default_timezone_set('America/La_paz');
    
                                 </a>
                                 <a xlink:href="" xlink:title="Mesa 21" class="dropdown-item" href="<?= base_url ('index.php/evento/evento1?mesa=21') ?>" >
-                                    <rect class="silla" id="mesa21" x="570.061" y="483.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.9138 751.9252)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
+                                    <rect  id="mesa21" x="570.061" y="483.926" transform="matrix(0.515 -0.8572 0.8572 0.515 -132.9138 751.9252)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="55.999" height="19.001"/>
                                     <rect class="silla" id="silla210" x="613.147" y="454.496" transform="matrix(0.5149 -0.8572 0.8572 0.5149 -94.4827 753.0167)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10" height="11.001"/>
                                     <rect class="silla" id="silla211" x="587.764" y="457.911" transform="matrix(0.5151 -0.8571 0.8571 0.5151 -109.7713 732.7841)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="9.999" height="10.998"/>
                                     <rect class="silla" id="silla212" x="624.192" y="479.299" transform="matrix(0.515 -0.8572 0.8572 0.515 -110.8394 774.6966)" fill="#FFFFFF" stroke="#004AEC" stroke-miterlimit="10" width="10.001" height="12"/>
@@ -1144,7 +1144,14 @@ date_default_timezone_set('America/La_paz');
                         </div>
                     </div>     
                     
-               
+                    <?php
+     $cont=  json_encode($sillas);
+   
+      print($cont);                                                 
+       
+
+
+?> 
            
       <!-- asta aca veremso q pasa -->
       <!-- ################################################################################################ -->
@@ -1152,16 +1159,30 @@ date_default_timezone_set('America/La_paz');
   </div>
   <!-- ################################################################################################ -->
 </div>
-<!-- <?php
-        // $cont[]=  $arrMesa;
-        // foreach ($cont as $key => $value) {
-            // print('hola  ' . json_encode($value) ); 
-        // }
-      //  print(json_encode($cont));                                                 
-       
+
+<script >
+//  var data = <?php echo json_encode($sillas);?>;
+ var seats = <?php echo json_encode($sillas);?>;
+
+//para luego proceder al pintado en caso de q no este reservada
+
+// var silla = document.getElementById("silla10")
+// seats[4].name=="Null" ? silla.style.fill="white" : silla.style.fill="greenyellow";
 
 
-?> -->
+
+  var elementos = document.getElementsByClassName("silla");
+  for (let i = 0; i < elementos.length; i++) {
+    if(seats[i].estado == 0     ){
+      elementos[i].style.fill = "red";
+    } else {
+      elementos[i].style.fill = "white";
+    }
+    
+  }
+
+ 
+</script>
 
 
 

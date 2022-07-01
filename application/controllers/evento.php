@@ -10,6 +10,7 @@ class Evento extends CI_Controller {
          $data['arrMesa']= "";
          $data['mesa']= "";
          $data['precio']= "";
+         $data['sillas']= "";
  
  
          $mesa =$this->input->get('mesa', TRUE);
@@ -20,6 +21,7 @@ class Evento extends CI_Controller {
                  $data['arrMesa']=$this->silla_model->get_cantidad($mesa);
                  $data['mesa']=$mesa;
                  $data['precio']= $this->silla_model->get_precio($mesa);
+                 $data['sillas']=$this->silla_model->get_sillas();
  
               
                 

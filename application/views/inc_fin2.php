@@ -42,6 +42,8 @@
         <!-- scrip para enviar la posicion de la mesa a la ventaana -->
     <!-- <script src="<?php echo base_url(); ?>starbootstrap/js/consulta_sillas.js"></script> -->
     <script src="<?php echo base_url();?>starbootstrap/js/sillas.js"></script>
+    <script src="<?php echo base_url();?>assets/js/pintado.js"></script>
+
 
 <!-- JAVASCRIPTS -->
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.min.js"></script>

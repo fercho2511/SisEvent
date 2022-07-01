@@ -1,82 +1,85 @@
-// window.onload = initialize;
+var seats = [
+  {
+    name: "Adrián Ceniza",
+    seat: 1
+  },
+  {
+    name: "Antonio Gil",
+    seat: 2
+  },
+  {
+    name: "Adrián Lorenzo",
+    seat: 3
+  },
+  {
+    name: "felipe",
+    seat: 4
+  },
+  {
+    name: "felipe",
+    seat: 5
+  },
+  {
+    name: "felipe",
+    seat: 6
+  },
+  {
+    name: "Null",
+    seat: 7
+  },
+  {
+    name: "Null",
+    seat: 8
+  },
+  {
+    name: "Null",
+    seat: 9
+  },
+  {
+    name: "Null",
+    seat: 10
+  },
+  {
+    name: "Null",
+    seat: 11
+  },
+  {
+    name: "Null",
+    seat: 12
+  },
+  {
+    name: "felipe",
+    seat: 13
+  },
+  {
+    name: "Null",
+    seat: 14
+  },
+  {
+    name: "Null",
+    seat: 15
+  },
+  {
+    name: "Null",
+    seat: 16
+  }
+];
+
+//para luego proceder al pintado en caso de q no este reservada
+
+// var silla = document.getElementById("silla10")
+// seats[4].name=="Null" ? silla.style.fill="white" : silla.style.fill="greenyellow";
 
 
-// //primero seria capturar en un array las sillas q estan ya vendidas o no
-// var seats = [
-//   {
-//     name: "Adrián Ceniza",
-//     seat: 1
-//   },
-//   {
-//     name: "Antonio Gil",
-//     seat: 2
-//   },
-//   {
-//     name: "Adrián Lorenzo",
-//     seat: 3
-//   },
-//   {
-//     name: "felipe",
-//     seat: 4
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 5
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 6
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 7
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 8
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 9
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 10
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 11
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 12
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 13
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 14
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 15
-//   },
-//   {
-//     name: "Nobody",
-//     seat: 16
-//   }
-// ];
 
+  var elementos = document.getElementsByClassName("silla");
+  for (let i = 0; i < elementos.length; i++) {
+    if(seats[i].name == "Null"){
+      elementos[i].style.fill = "white";
+    } else {
+      elementos[i].style.fill = "red";
+    }
+    
+  }
 
-// //para luego proceder al pintado en caso de q no este reservada
-// function initialize() {
-//   var seatElements = document.getElementsByClassName("seat");
-//   for(var i = 0; i < seatElements.length; i++){
-//     showTooltipInfoSeat(seatElements[i]);
-//   }
-
-//   var formSeat = document.getElementById("form-seat");
-//   formSeat.addEventListener("submit", addSeat);
-// }
+ 

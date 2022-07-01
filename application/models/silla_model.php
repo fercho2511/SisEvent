@@ -62,4 +62,13 @@ class Silla_model extends CI_Model {
         return false; 
     }
 
+
+    function get_sillas(){
+        // SELECT CONCAT(mesa,silla-1) as silla , estado from mapa
+        $query=" SELECT CONCAT(mesa,silla-1) as silla , estado from mapa " ;
+
+            $resultados = $this->db->query($query);
+            return $resultados;
+                }
+
 }

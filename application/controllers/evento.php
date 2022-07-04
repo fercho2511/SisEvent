@@ -11,10 +11,14 @@ class Evento extends CI_Controller {
          $data['mesa']= "";
          $data['precio']= "";
          $data['sillas']= $this->silla_model->get_sillas();
+         //$data['general']= $this->silla_model->get_sillas2();
+
  
  
          $mesa =$this->input->get('mesa', TRUE);
-         // echo $mesa;
+        //  if ($mesa =="general") {
+        //      $mesa = 0;
+        //  }
          if ($mesa) {
              //$result = $this->silla_model->get_cantidad($query); 
              

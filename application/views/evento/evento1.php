@@ -766,257 +766,257 @@ date_default_timezone_set('America/La_paz');
     
                                 </a>
                                     
-                                 <a xlink:href="" xlink:title="General" class="dropdown-item" href="<?= base_url ('index.php/evento/evento1?mesa=general') ?>" >
-                                    <rect class="genral" id="general241" x="130.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general232" x="130.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general223" x="130.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general214" x="130.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general205" x="130.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general196" x="130.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general187" x="130.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general178" x="130.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general169" x="130.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general160" x="130.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general153" x="130.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general146" x="130.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general139" x="130.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general132" x="130.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general125" x="130.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general118" x="130.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general111" x="130.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general104" x="130.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general97" x="130.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general90" x="130.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general36" x="130.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general32" x="130.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general28" x="130.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general24" x="130.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general20" x="130.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general16" x="130.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general12" x="130.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general8" x="130.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general4" x="130.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general0" x="130.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general85" x="130.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general80" x="130.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general75" x="130.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general70" x="130.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general65" x="130.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general60" x="130.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general55" x="130.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general50" x="130.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general45" x="130.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general40" x="130.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general242" x="115.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general233" x="115.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general224" x="115.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general215" x="115.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general206" x="115.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general197" x="115.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general188" x="115.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general179" x="115.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general170" x="115.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general161" x="115.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general154" x="115.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general147" x="115.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general140" x="115.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general133" x="115.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general126" x="115.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general119" x="115.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general112" x="115.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general105" x="115.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general98" x="115.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general91" x="115.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general37" x="115.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general33" x="115.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general29" x="115.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general25" x="115.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general21" x="115.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general17" x="115.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general13" x="115.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general9" x="115.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general5" x="115.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general1" x="115.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general86" x="115.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general81" x="115.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general76" x="115.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general71" x="115.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general66" x="115.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general61" x="115.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general56" x="115.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general51" x="115.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general46" x="115.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general41" x="115.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general243" x="99.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general234" x="99.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general225" x="99.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general216" x="99.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general207" x="99.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general198" x="99.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general189" x="99.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general180" x="99.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general171" x="99.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general162" x="99.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general155" x="99.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general148" x="99.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general141" x="99.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general134" x="99.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general127" x="99.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general120" x="99.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general113" x="99.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general106" x="99.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general99" x="99.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general92" x="99.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general38" x="99.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general34" x="99.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general30" x="99.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general26" x="99.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general22" x="99.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general18" x="99.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general14" x="99.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general10" x="99.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general6" x="99.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general2" x="99.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general87" x="99.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general82" x="99.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general77" x="99.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general72" x="99.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general67" x="99.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general62" x="99.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general57" x="99.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general52" x="99.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general47" x="99.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general42" x="99.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general244" x="84.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general235" x="84.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general226" x="84.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general217" x="84.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general208" x="84.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general199" x="84.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general190" x="84.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general181" x="84.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general172" x="84.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general163" x="84.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general156" x="84.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general149" x="84.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general142" x="84.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general135" x="84.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general128" x="84.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general121" x="84.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general114" x="84.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general107" x="84.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general100" x="84.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general93" x="84.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general39" x="84.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general35" x="84.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general31" x="84.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general27" x="84.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general23" x="84.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general19" x="84.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general15" x="84.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general11" x="84.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general7" x="84.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general3" x="84.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general88" x="84.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general83" x="84.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general78" x="84.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general73" x="84.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general68" x="84.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general63" x="84.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general58" x="84.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general53" x="84.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general48" x="84.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general43" x="84.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general245" x="68.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general236" x="68.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general227" x="68.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general218" x="68.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general209" x="68.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general200" x="68.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general191" x="68.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general182" x="68.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general173" x="68.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general164" x="68.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general157" x="68.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general150" x="68.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general143" x="68.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general136" x="68.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general129" x="68.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general122" x="68.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general115" x="68.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general108" x="68.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general101" x="68.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general94" x="68.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general89" x="68.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general84" x="68.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general79" x="68.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general74" x="68.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general69" x="68.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general64" x="68.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general59" x="68.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general54" x="68.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general49" x="68.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general44" x="68.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general246" x="53.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general237" x="53.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general228" x="53.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general219" x="53.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general210" x="53.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general201" x="53.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general192" x="53.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general183" x="53.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general174" x="53.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general165" x="53.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general247" x="37.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general238" x="37.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general229" x="37.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general220" x="37.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general211" x="37.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general202" x="37.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general193" x="37.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general184" x="37.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general175" x="37.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general166" x="37.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general158" x="53.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general151" x="53.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general144" x="53.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general137" x="53.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general130" x="53.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general123" x="53.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general116" x="53.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general109" x="53.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general102" x="53.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general95" x="53.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general159" x="37.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general152" x="37.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general145" x="37.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general138" x="37.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general131" x="37.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general124" x="37.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general117" x="37.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general110" x="37.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general103" x="37.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general96" x="37.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general248" x="22.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general239" x="22.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general230" x="22.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general221" x="22.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general212" x="22.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general203" x="22.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general194" x="22.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general185" x="22.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general176" x="22.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general167" x="22.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general249" x="6.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general240" x="6.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general231" x="6.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general222" x="6.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general213" x="6.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general204" x="6.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general195" x="6.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general186" x="6.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general177" x="6.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
-                                    <rect class="genral" id="general168" x="6.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                 <a xlink:href="" xlink:title="General" class="dropdown-item" href="<?= base_url ('index.php/evento/evento1?mesa=46') ?>" >
+                                    <rect class="silla" id="general241" x="130.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general232" x="130.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general223" x="130.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general214" x="130.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general205" x="130.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general196" x="130.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general187" x="130.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general178" x="130.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general169" x="130.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general160" x="130.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general153" x="130.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general146" x="130.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general139" x="130.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general132" x="130.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general125" x="130.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general118" x="130.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general111" x="130.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general104" x="130.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general97" x="130.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general90" x="130.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general36" x="130.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general32" x="130.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general28" x="130.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general24" x="130.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general20" x="130.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general16" x="130.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general12" x="130.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general8" x="130.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general4" x="130.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general0" x="130.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general85" x="130.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general80" x="130.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general75" x="130.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general70" x="130.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general65" x="130.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general60" x="130.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general55" x="130.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general50" x="130.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general45" x="130.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general40" x="130.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general242" x="115.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general233" x="115.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general224" x="115.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general215" x="115.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general206" x="115.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general197" x="115.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general188" x="115.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general179" x="115.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general170" x="115.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general161" x="115.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general154" x="115.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general147" x="115.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general140" x="115.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general133" x="115.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general126" x="115.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general119" x="115.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general112" x="115.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general105" x="115.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general98" x="115.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general91" x="115.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general37" x="115.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general33" x="115.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general29" x="115.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general25" x="115.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general21" x="115.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general17" x="115.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general13" x="115.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general9" x="115.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general5" x="115.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general1" x="115.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general86" x="115.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general81" x="115.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general76" x="115.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general71" x="115.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general66" x="115.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general61" x="115.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general56" x="115.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general51" x="115.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general46" x="115.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general41" x="115.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general243" x="99.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general234" x="99.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general225" x="99.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general216" x="99.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general207" x="99.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general198" x="99.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general189" x="99.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general180" x="99.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general171" x="99.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general162" x="99.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general155" x="99.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general148" x="99.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general141" x="99.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general134" x="99.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general127" x="99.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general120" x="99.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general113" x="99.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general106" x="99.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general99" x="99.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general92" x="99.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general38" x="99.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general34" x="99.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general30" x="99.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general26" x="99.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general22" x="99.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general18" x="99.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general14" x="99.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general10" x="99.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general6" x="99.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general2" x="99.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general87" x="99.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general82" x="99.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general77" x="99.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general72" x="99.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general67" x="99.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general62" x="99.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general57" x="99.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general52" x="99.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general47" x="99.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general42" x="99.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general244" x="84.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general235" x="84.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general226" x="84.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general217" x="84.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general208" x="84.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general199" x="84.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general190" x="84.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general181" x="84.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general172" x="84.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general163" x="84.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general156" x="84.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general149" x="84.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general142" x="84.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general135" x="84.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general128" x="84.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general121" x="84.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general114" x="84.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general107" x="84.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general100" x="84.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general93" x="84.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general39" x="84.5" y="176.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general35" x="84.5" y="157.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general31" x="84.5" y="138.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general27" x="84.5" y="122.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general23" x="84.5" y="104.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general19" x="84.5" y="87.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general15" x="84.5" y="69.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general11" x="84.5" y="49.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general7" x="84.5" y="32.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general3" x="84.5" y="14.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general88" x="84.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general83" x="84.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general78" x="84.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general73" x="84.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general68" x="84.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general63" x="84.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general58" x="84.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general53" x="84.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general48" x="84.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general43" x="84.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general245" x="68.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general236" x="68.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general227" x="68.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general218" x="68.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general209" x="68.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general200" x="68.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general191" x="68.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general182" x="68.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general173" x="68.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general164" x="68.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general157" x="68.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general150" x="68.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general143" x="68.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general136" x="68.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general129" x="68.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general122" x="68.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general115" x="68.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general108" x="68.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general101" x="68.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general94" x="68.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general89" x="68.5" y="358.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general84" x="68.5" y="339.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general79" x="68.5" y="320.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general74" x="68.5" y="304.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general69" x="68.5" y="286.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general64" x="68.5" y="269.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general59" x="68.5" y="251.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general54" x="68.5" y="231.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general49" x="68.5" y="214.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general44" x="68.5" y="196.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general246" x="53.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general237" x="53.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general228" x="53.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general219" x="53.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general210" x="53.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general201" x="53.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general192" x="53.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general183" x="53.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general174" x="53.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general165" x="53.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general247" x="37.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general238" x="37.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general229" x="37.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general220" x="37.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general211" x="37.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general202" x="37.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general193" x="37.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general184" x="37.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general175" x="37.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general166" x="37.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general158" x="53.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general151" x="53.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general144" x="53.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general137" x="53.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general130" x="53.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general123" x="53.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general116" x="53.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general109" x="53.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general102" x="53.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general95" x="53.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general159" x="37.5" y="539.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general152" x="37.5" y="520.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general145" x="37.5" y="501.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general138" x="37.5" y="485.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general131" x="37.5" y="467.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general124" x="37.5" y="450.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general117" x="37.5" y="432.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general110" x="37.5" y="412.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general103" x="37.5" y="395.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general96" x="37.5" y="377.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general248" x="22.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general239" x="22.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general230" x="22.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general221" x="22.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general212" x="22.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general203" x="22.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general194" x="22.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general185" x="22.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general176" x="22.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general167" x="22.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general249" x="6.5" y="720.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general240" x="6.5" y="701.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general231" x="6.5" y="682.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general222" x="6.5" y="666.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general213" x="6.5" y="648.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general204" x="6.5" y="631.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general195" x="6.5" y="613.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general186" x="6.5" y="593.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general177" x="6.5" y="576.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
+                                    <rect class="silla" id="general168" x="6.5" y="558.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="10" height="12"/>
                                 </a>
                                     <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="150.5" y1="0" x2="150.5" y2="760"/>
                                     <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="252.5" y1="0" x2="252.5" y2="760"/>
@@ -1031,13 +1031,6 @@ date_default_timezone_set('America/La_paz');
                                     <path d="M0,0"/>
                                     </svg>
 <!-- asta aca -->
-
-
-
-
-
-                 
-                      
 
                                 <!-- asta este punto perteence la imagen del mapa -->
                             </div>
@@ -1064,8 +1057,17 @@ date_default_timezone_set('America/La_paz');
                                     <div class="form-group row">
                                         <div id="output" class="col-sm-5 mb-3 mb-sm-0">
                                             <label for="" class="m-0 font-weight-bold text-info">Mesa:
-                                            <input type="text" value ="<?php echo $mesa;?>" class="form-control form-control-user" id="numSilla" name="numSilla" requirem readonly
-                                                placeholder="Mesa"> </label>                                               
+                                            <input type="text"  class="form-control form-control-user" id="numSilla" name="numSilla" requirem readonly
+                                                placeholder="Mesa"
+                                                value ="<?php 
+                                                if ($mesa == 46) {
+                                                   echo "general";
+                                                }
+                                                else {
+                                                    echo $mesa;
+                                                }
+                                                ?>"
+                                                > </label>                                               
                                         </div>
                                   
                                         <div class="form-group">
@@ -1083,7 +1085,7 @@ date_default_timezone_set('America/La_paz');
                                         </div>
                                         <div class="col-sm-6">
                                                 <label class="m-0 font-weight-bold text-info" for="">Precio Bs.-: </label>
-                                                <input type="text" value="<?php echo $precio;?>"  class="form-control form-control-user" id="precio" name="precio" require 
+                                                <input type="text" value="<?php echo $precio;?>"  class="form-control form-control-user" id="precio" name="precio" require readonly
                                                  placeholder="Bs.-">
                                         </div>
                                     </div>
@@ -1139,7 +1141,7 @@ date_default_timezone_set('America/La_paz');
                                     <div class="mt-2 text-center small">
                                   
 
-                                        <button type="submit" class="btn btn-primary" >VENTA</button>
+                                        <button id ="venta" type="submit" class="btn btn-primary" >VENTA</button>
                                         <!-- <button type="submit" class="btn btn-outline-primary" >RESERVA</button> -->
                                     </div>
                                 </div>

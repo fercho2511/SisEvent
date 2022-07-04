@@ -117,8 +117,13 @@ function registrarVenta2 (){
     $correo = $this->input->post("correo");
     $telefono = $this->input->post("telefono");
     $numSilla = $this->input->post("numSilla");
+    $mes =$this->input->post("mesa");
+    if ($mes =="general") {
+        $mesa = 46;
+    }else {
+        $mesa= $this->input->post("mesa");
 
-    $mesa= $this->input->post("mesa");
+    }
     $cantidad = $this->input->post("cantidad");
     $idUsuario=0;
     $precioTotal = $this->input->post('precio');

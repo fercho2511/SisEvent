@@ -52,5 +52,13 @@ class Evento extends CI_Controller {
     }
 
 
+    function reporte(){
+        $this->load->view('inc_menu3.php');
+        $this->load->view('inc_menu4.php');
+       $this->load->view('evento/reporte');
+       $this->load->view('inc_fin2.php');
+
+    }
+
 
 } 

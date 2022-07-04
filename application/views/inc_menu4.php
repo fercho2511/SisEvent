@@ -17,6 +17,45 @@ Licence URI: https://www.os-templates.com/template-terms
 <link href="<?php echo base_url();?>nocobot/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <!-- <link rel="stylesheet" href="<?php echo base_url();?>assets/css/estilo.css"> -->
 
+
+<!-- de adminLTE -->
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/fontawesome-free/css/all.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/dist/css/adminlte.min.css">
+
+      <!-- para el datepiker -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/fontawesome-free/css/all.min.css">
+      <!-- daterange picker -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/daterangepicker/daterangepicker.css">
+      <!-- iCheck for checkboxes and radio inputs -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+      <!-- Bootstrap Color Picker -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+      <!-- Tempusdominus Bootstrap 4 -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+      <!-- Select2 -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/select2/css/select2.min.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+      <!-- Bootstrap4 Duallistbox -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE//plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+      <!-- BS Stepper -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/bs-stepper/css/bs-stepper.min.css">
+      <!-- dropzonejs -->
+      <link rel="stylesheet" href="<?php echo base_url();?>adminLTE/plugins/dropzone/min/dropzone.min.css">
+      <!-- Theme style -->
+      <!-- data piker q es el form par el reporte -->
+
+<!-- asta aca el LTE -->
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -42,6 +81,8 @@ Licence URI: https://www.os-templates.com/template-terms
         <ul class="clear">
           <li class="active"><a href="<?php echo base_url();?>index.php/usuario/index">INICIO</a></li>
           <li class="active"><a href="<?php echo base_url();?>index.php/evento/evento1">MAPA</a></li>
+          <li class="active"><a href="<?php echo base_url();?>index.php/evento/reporte">REPORTES</a></li>
+
 
           <!-- <li><a class="drop" href="#">Pages</a>
             <ul>

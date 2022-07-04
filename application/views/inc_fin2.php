@@ -49,5 +49,6 @@
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.min.js"></script>
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.backtotop.js"></script>
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.mobilemenu.js"></script>
+<script src="<?php echo base_url();?>starbootstrap/js/botonoes.js"></script>
 </body>
 </html>

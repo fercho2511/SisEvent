@@ -64,26 +64,7 @@ class Silla_model extends CI_Model {
 
 
     function get_sillas(){
-        // SELECT CONCAT(mesa,silla-1) as silla , estado from mapa
-   
-
-                // $this->db->select('estado');
-                // $this->db->from('mapa');
-                
-                // return $this->db->get();
-
-
-
-            //     $query = $this->db-> query("SELECT CONCAT(mesa,silla-1) as silla , estado from mapa");
-            // // si hay resultados
-            // if ($query->num_rows() > 0) {
-            // // almacenamos en una matriz bidimensional
-            // foreach($query->result() as $row)
-            // $arrDatos[htmlspecialchars($row->silla, ENT_QUOTES)] = 
-            //     htmlspecialchars($row->estado, ENT_QUOTES);
-            // $query->free_result();
-            // return $arrDatos;
-            // }
+      
 
             $this->db->select('estado')->from('mapa');
                 $query = $this->db->get();
@@ -92,6 +73,17 @@ class Silla_model extends CI_Model {
 
             
     }
+
+//     function get_sillas2(){
+      
+
+//         $this->db->select('estado')->from('mapa')->where(mesa='46');
+//             $query = $this->db->get();
+//                 return $query->result_array();
+
+
+        
+// }
 
 
 

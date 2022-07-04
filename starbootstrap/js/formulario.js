@@ -18,8 +18,8 @@ vend.style.display="none";
 
 $('#selecMesa').on('change',function(){
     
-    var selectValor = $(this).val();
-    alert(selectValor);
+    var selectValor = $(this).val(); //con esto se captura el cavlor q esta en el div
+    // alert(selectValor); //para verificar si realmenet captura el valor
     if (selectValor == '0') {
 
  

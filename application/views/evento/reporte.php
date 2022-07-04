@@ -30,15 +30,8 @@
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group">
                                             <label>Desde:</label>
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 100%;">
-                                                <option selected="selected">Alabama</option>
-                                                <option>Alaska</option>
-                                                <option>California</option>
-                                                <option>Delaware</option>
-                                                <option>Tennessee</option>
-                                                <option>Texas</option>
-                                                <option>Washington</option>
-                                            </select>
+                                            <input type="date" name="" id="" >   
+
                                             </div>
                                             <!-- /.form-group -->
                                         </div>
@@ -46,17 +39,9 @@
                                             <div class="col-12 col-sm-6">
                                                 <div class="form-group">
                                                 <label>Hasta:</label>
-                                                <div class="select2-purple">
-                                                <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 100%;">
-                                                    <option>Alabama</option>
-                                                    <option>Alaska</option>
-                                                    <option>California</option>
-                                                    <option>Delaware</option>
-                                                    <option>Tennessee</option>
-                                                    <option>Texas</option>
-                                                    <option>Washington</option>
-                                                    </select>
-                                                </div>
+                                                    <input type="date" name="" id="" >   
+                                              
+                                                
                                                 </div>
                                                 <!-- /.form-group -->
                                             </div>
@@ -69,7 +54,7 @@
                                             <div class="form-group">
                                             <label>Seleccione la Mesa:</label>                                            
 
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 100%;">
+                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
                                                 <option>mesa 1</option>
                                                 <option>mesa 2</option>
                                                 <option>mesa 3</option>
@@ -90,7 +75,7 @@
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group">
                                             <label>Seleccione Comprador:</label>                                            
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 100%;">
+                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
                                                 <option>ximena</option>
                                                 <option>Carolina</option>
                                                 <option>telma</option>
@@ -109,7 +94,7 @@
                                             <div class="form-group">
                                             <label>Seleccione Vendedor:</label>
 
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 100%;">
+                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
                                                 <option>Daniela</option>
                                                 <option>Carlos</option>
                                                 <option>DAniela</option>

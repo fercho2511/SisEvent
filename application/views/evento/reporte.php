@@ -30,7 +30,7 @@
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group">
                                             <label>Desde:</label>
-                                            <input type="date" name="" id="" >   
+                                            <input type="date" name="" id="" style="color: black;" >   
 
                                             </div>
                                             <!-- /.form-group -->
@@ -39,7 +39,7 @@
                                             <div class="col-12 col-sm-6">
                                                 <div class="form-group">
                                                 <label>Hasta:</label>
-                                                    <input type="date" name="" id="" >   
+                                                    <input type="date" name="" id="" style="color: black;" > 
                                               
                                                 
                                                 </div>
@@ -134,54 +134,86 @@
             <div class="wrapper">
             <div class="card">
                         <div class="card-header">
-                            <h3 color="blue" class="card-title">Reporte general</h3>
+                            <h3 style="color: black; class="card-title">Reporte general</h3>
                         </div>
                         <!-- /.card-header -->
-                        <div class="card-body">
-                            <table id="example1" class="table table-bordered table-striped">
+                        <div class="card-body" style="color: black;">
+                            <table id="example1" class="table table-bordered table-striped" >
                             <thead>
                             <tr>
-                                <th>Nombre</th>
+                            <th>N°</th>
+                                <th>Nombre Comprador</th>
+                                <th>Nombre Vendedor</th>
+
                                 <th>mesa</th>
                                 <th>Cantidad Sillas</th>
                                 <th>Precio Unitario</th>
+
                                 <th>Total Pagado</th>
+                                <th>Fecha Venta</th>
+
+                                <th>Evento</th>
+
                             </tr>
                             </thead>
+                            
+                            
+                            
                             <tbody>
-                            
-                            
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Camino 1.0</td>
-                                <td>OSX.2+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Camino 1.5</td>
-                                <td>OSX.3+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Netscape 7.2</td>
-                                <td>Win 95+ / Mac OS 8.6-9.2</td>
-                                <td>1.7</td>
-                                <td>A</td>
-                            </tr>
-                            
+                                        <?php
+                                    $indice=1;
+                                    //invocaremos a [profesor] q pusimos en el array asociativo $data de profesor.php
+                                    foreach ($reporteGeneral-> result() as $row) {
+                                        ?>
+                                                            <tr>
+                                                <td><?php echo $indice;?></td>
+                                                <td><?php echo $row->nombreComprador;?>
+                                                   
+                                                </td>
+                                                <td><?php echo $row->nombreVendedor;?></td>
+                                                <td>
+                                                    <?php
+                                                    if( $row->mesa==46){
+                                                            echo "general";
+                                                    }
+                                                    else{
+                                                        echo $row->mesa;
+                                                    }
+                                                    ?>
+                                                </td>
+                                                <td><?php echo $row->Cantidadsillas;?></td> 
+                                                <td><?php echo $row->precioxsilla;?> Bs.-</td> 
+                                                <td><?php echo $row->precioxsilla  * $row->Cantidadsillas ;?> Bs.-</td> 
+                                                <td><?php echo $row->fechaventa;?></td>
+
+                                                <td><?php echo $row->evento;?></td> 
+ 
+                                                
+
+                                              
+                                                
+                                            </tr>
+                        <?php
+                        $indice++;
+                    }
+                    ?>                                            
+                                        </tbody>
+                                        
                         
                             </tbody>
                             <tfoot>
                             <tr>
-                            <th>Nombre</th>
+                            <th>N°</th>
+                                <th>Nombre Comprador</th>
+                                <th>Nombre Vendedor</th>
+
                                 <th>mesa</th>
                                 <th>Cantidad Sillas</th>
                                 <th>Precio Unitario</th>
                                 <th>Total Pagado</th>
+                                <th>Fecha Venta</th>
+
+                                <th>Evento</th>
                             </tr>
                             </tfoot>
                             </table>

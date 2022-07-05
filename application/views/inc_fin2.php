@@ -48,7 +48,6 @@
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.min.js"></script>
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.backtotop.js"></script>
 <script src="<?php echo base_url();?>nocobot/layout/scripts/jquery.mobilemenu.js"></script>
-<<<<<<< HEAD
 
 
 <!-- de adminLTE -->
@@ -258,8 +257,5 @@
 <script src="<?php echo base_url(); ?>starbootstrap/js/formulario.js"></script> 
 
 <!-- asta ac ael LTE -->
-=======
-<script src="<?php echo base_url();?>starbootstrap/js/botonoes.js"></script>
->>>>>>> ea46b3896468961a092b598f5c65ae7651258e01
 </body>
 </html>

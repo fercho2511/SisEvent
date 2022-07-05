@@ -11,14 +11,11 @@ class Evento extends CI_Controller {
          $data['mesa']= "";
          $data['precio']= "";
          $data['sillas']= $this->silla_model->get_sillas();
-         //$data['general']= $this->silla_model->get_sillas2();
 
  
  
          $mesa =$this->input->get('mesa', TRUE);
-        //  if ($mesa =="general") {
-        //      $mesa = 0;
-        //  }
+      
          if ($mesa) {
              //$result = $this->silla_model->get_cantidad($query); 
              
@@ -57,9 +54,32 @@ class Evento extends CI_Controller {
 
 
     function reporte(){
+
+        // $data['arrMesa']= "";
+        // $data['mesa']= "";
+        // $data['precio']= "";
+        $data['reporteGeneral']= $this->evento_model->reporteGeneral();
+
+
+
+        // $mesa =$this->input->get('mesa', TRUE);
+     
+        // if ($mesa) {
+        //     //$result = $this->silla_model->get_cantidad($query); 
+            
+        //         $data['arrMesa']=$this->silla_model->get_cantidad($mesa);
+        //         $data['mesa']=$mesa;
+        //         $data['precio']= $this->silla_model->get_precio($mesa);
+        //         //$data['sillas']=$this->silla_model->get_sillas();
+
+             
+               
+            
+        // }
+      
         $this->load->view('inc_menu3.php');
         $this->load->view('inc_menu4.php');
-       $this->load->view('evento/reporte');
+       $this->load->view('evento/reporte',$data);
        $this->load->view('inc_fin2.php');
 
     }

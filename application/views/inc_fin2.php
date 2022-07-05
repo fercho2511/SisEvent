@@ -98,6 +98,8 @@
                         <script src="<?php echo base_url();?>adminLTE/plugins/dropzone/min/dropzone.min.js"></script>
                         <!-- AdminLTE App -->
                         <script src="<?php echo base_url();?>adminLTE/dist/js/adminlte.min.js"></script>
+                        <script src="<?php echo base_url(); ?>starbootstrap/js/formulario2.js"></script> 
+
                         <!-- AdminLTE for demo purposes -->
                         <!-- Page specific script -->
                         <script>
@@ -254,7 +256,6 @@
     });
   });
 </script>
-<script src="<?php echo base_url(); ?>starbootstrap/js/formulario.js"></script> 
 
 <!-- asta ac ael LTE -->
 </body>

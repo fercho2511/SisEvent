@@ -1,19 +1,21 @@
  <!-- /.col (left) -->
  <div class="col-md-12">
 
-<form action="">
+ <form action="<?php echo base_url();?>index.php/evento/reporte" method="GET">
                     <!-- desde aca -->
                     <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                         <label>FILTRAR POR:</label>
-                                        <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 50%;" id="selecMesa" name="selecMesa">
+                                        <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 50%;" id="filtro" name="filtro">
                                         <option value="0">Seleccione una opcion</option>   
                                             <option value="1">Fecha</option>
                                             <option value="2">Mesa</option>
                                             <option value="3">Comprador</option>
-                                            <option value="4">vendedor</option>
+                                            <option value="4">Vendedor</option>
+                                            <option value="5">General</option>
+
                                         
                                         </select>
                                         </div>
@@ -30,7 +32,7 @@
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group">
                                             <label>Desde:</label>
-                                            <input type="date" name="" id="" style="color: black;" >   
+                                            <input type="date" name="desde" id="desde" style="color: black;" >   
 
                                             </div>
                                             <!-- /.form-group -->
@@ -39,7 +41,7 @@
                                             <div class="col-12 col-sm-6">
                                                 <div class="form-group">
                                                 <label>Hasta:</label>
-                                                    <input type="date" name="" id="" style="color: black;" > 
+                                                    <input type="date" name="hasta" id="hasta" style="color: black;" > 
                                               
                                                 
                                                 </div>
@@ -54,13 +56,12 @@
                                             <div class="form-group">
                                             <label>Seleccione la Mesa:</label>                                            
 
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
-                                                <option>mesa 1</option>
-                                                <option>mesa 2</option>
-                                                <option>mesa 3</option>
-                                                <option>mesa 4</option>
-                                                <option>mesa 5</option>
-                                                <option>mesa 5</option>
+                                            <select class="form-control select2 select2-purple" id="mesa" name="mesa" data-dropdown-css-class="select2-purple" style="width: 40%;">
+                                            <?php
+                                                  
+                                                  foreach ($mesas as $i => $mesa)
+                                                    echo '<option values="',$i,'">' ,$mesa,'</option>';
+                                                  ?>
                                             </select>
                                             </div>
                                             <!-- /.form-group -->
@@ -75,10 +76,12 @@
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group">
                                             <label>Seleccione Comprador:</label>                                            
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
-                                                <option>ximena</option>
-                                                <option>Carolina</option>
-                                                <option>telma</option>
+                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" id="comprador" name="comprador" style="width: 40%;">
+                                            <?php
+                                                  
+                                                  foreach ($compra as $i => $com)
+                                                    echo '<option values="',$i,'">' ,$com,'</option>';
+                                                  ?>
                                            
                                             </select>
                                             </div>
@@ -94,13 +97,12 @@
                                             <div class="form-group">
                                             <label>Seleccione Vendedor:</label>
 
-                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" style="width: 40%;">
-                                                <option>Daniela</option>
-                                                <option>Carlos</option>
-                                                <option>DAniela</option>
-                                                <option>Vanesa</option>
-                                                <option>Ariel</option>
-                                                <option>Marco</option>
+                                            <select class="form-control select2 select2-purple" data-dropdown-css-class="select2-purple" id="vendedor" name="vendedor" style="width: 40%;">
+                                            <?php
+                                                  
+                                                  foreach ($venta as $i => $ven)
+                                                    echo '<option values="',$i,'">' ,$ven,'</option>';
+                                                  ?>
                                             </select>
                                             </div>
                                             <!-- /.form-group -->
@@ -110,11 +112,11 @@
                                 <!-- /.col -->
                                 </div>
 
-<br><br>
+                                    <br><br>
                                 <div>
                               
 
-                                <button id="formReporte" name="formReporte" type="button" class="btn btn-block bg-gradient-secondary btn-sm">BUSCAR</button>
+                                <button id="formReporte" name="formReporte" type="submit" style="width: 10%;" class="btn btn-block bg-gradient-secondary btn-sm">BUSCAR</button>
 
                                 </div>
                                 </form>
@@ -134,7 +136,7 @@
             <div class="wrapper">
             <div class="card">
                         <div class="card-header">
-                            <h3 style="color: black; class="card-title">Reporte general</h3>
+                            <h3 style="color: black;" class="card-title"><?php echo $titulo;?></h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body" style="color: black;">
@@ -163,7 +165,7 @@
                                         <?php
                                     $indice=1;
                                     //invocaremos a [profesor] q pusimos en el array asociativo $data de profesor.php
-                                    foreach ($reporteGeneral-> result() as $row) {
+                                    foreach ($reporte-> result() as $row) {
                                         ?>
                                                             <tr>
                                                 <td><?php echo $indice;?></td>
@@ -222,3 +224,7 @@
                         </div>
                         <!-- /.card -->
 </div>
+<br>
+<br>
+<br>
+<br>

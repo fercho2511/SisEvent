@@ -30,7 +30,7 @@ class Usuario_per extends CI_Controller {
 
 		$this->load->view('inc_inicio.php');
         // $this->load->view('inc_menu2.php');
-		$this->load->view('usuario/usuario_vista',$data);
+		$this->load->view('usuario/administrador/usuario_vista',$data);
 		$this->load->view('inc_fin.php');
 
 	}
@@ -247,66 +247,13 @@ class Usuario_per extends CI_Controller {
         $data['usu']=$lista; //otro array asociativo
 		$this->load->view('inc_inicio.php');
         $this->load->view('inc_menu.php');
-		$this->load->view('usuario/usuario_list',$data);
+		$this->load->view('usuario/administrador/usuario_list',$data);
 		$this->load->view('inc_fin.php');
 
 
 
     }
-    // public function modificarLoguinAdmin()
-    // {
-    //     try {            //code...
-        
-       
-    //         $this->load->library(array('form_validation'));
-    //         $this->load->helper('form');
-
-    //         $data['password']=md5($_POST['password']);
-    //         $idUsuario=$_POST['idUsuario'];        
-    //         $data['idUsuario_Acciones'] =$_POST['idUsuario_Acciones'];
-
-            
-
-    //         $config=array(
-    //             array(
-    //                 'field'=>'password',
-    //                 'label' =>'password',
-    //                 'rules' =>'is_unique[usuario.password]',                    
-    //                 'errors'=> array(
-    //                         'is_unique' =>'La %s. ya fue registrado',
-    //                 ),
-
-    //             ),
-    //         );
-    //         $this->form_validation->set_rules($config);
-
-    //         if ($this->form_validation->run()==FALSE) {
-    //             echo '<script>
-    //             alert("Password ya Registrado");
-    //             </script>'; 
-    //             redirect($_SERVER['HTTP_REFERER']);
-        
-    //         }
-    //         else {
-    //             $this->usuarioper_model->modificarUsuario($idUsuario,$data);
-    //             echo '<script>
-    //             alert("Modificacion Satisfactoria");
-    //             </script>';
-
-    //             redirect('usuario_per/test','refresh');
-    
-    //         }
-    //     } catch (\Throwable $th) {
-    //         echo '<script>
-    //             alert("Password ya Registrado");
-    //             </script>'; 
-    //                 redirect('gestion/cursoCreado', 'refresh');
-    //     }      
-
-       
-       
-
-    // }
+   
     public function modificarLoguinAdmin()
     {
         try {           

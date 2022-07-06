@@ -179,4 +179,15 @@ class Evento_model extends CI_Model {
                return $resultados;
     }
 	
+
+
+    //para crear evento 
+    function crearEvento(){
+        
+        $query = "SELECT id, evento, lugar, fechaEvento, estado FROM evento ";
+        $resultados = $this->db->query($query);
+        return $resultados;
+
+
+    }
 }

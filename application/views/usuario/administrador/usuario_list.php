@@ -9,7 +9,7 @@
         </h1>
     </section>
     <!-- Main content -->
-    <!-- <section class="content">
+     <section class="content">
         <!-- Default box -->
         <div class="box box-solid">
             <div class="box-body">

@@ -163,6 +163,56 @@
     <!-- asta aca modal para zona -->
 
 
+    <!-- ventana modal para crear evento -->
+    <div class="modal fade" id="logoutModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">REGISTRAR EVENTO</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="numMesa" name="zona" 
+                                            placeholder="ZONA">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="number" class="form-control form-control-user" id="zona" name="precio" 
+                                            placeholder="PRECIO">
+                                    </div>
+                                </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-secondary" type="button" data-dismiss="modal">Cancel</button>
+
+
+                    <?php
+                                    echo form_open_multipart('zona_pre/crearZona');
+                                    ?>
+
+                                  <button type="submit" class="btn btn-outline-primary" >REGISTRAR</button>
+
+                                  <!-- <a class="btn btn-primary" >Logout</a> -->
+                                    </a>
+                                    
+
+                </div>
+            </div>
+            <?php
+                                        echo form_close();
+                                    ?>
+        </div>
+    </div>
+    <!-- hasta aca se crea el evento -->
+
+
     <!-- Button trigger modal -->
                 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                 Launch demo modal

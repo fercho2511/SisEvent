@@ -55,6 +55,11 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Zona/Precio</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url(); ?>index.php/evento/crearEvento">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Evento</span></a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

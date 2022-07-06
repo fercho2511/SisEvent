@@ -107,4 +107,14 @@ class Evento extends CI_Controller {
     }
 
 
+    function crearEvento(){
+
+        $data['arrEvento']=$this->evento_model->crearEvento();
+        $this->load->view('inc_inicio.php');
+        $this->load->view('inc_menu.php');
+        $this->load->view('usuario/administrador/evento',$data);
+        $this->load->view('inc_fin.php');
+    }
+
+
 } 
